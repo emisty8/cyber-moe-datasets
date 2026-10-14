@@ -1,0 +1,160 @@
+[
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:authentication",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-0\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-0\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Report the observed account, login event codes and chronology from this synthetic authentication evidence. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "Account_Name",
+      "EventCode"
+    ],
+    "scenario_id": "synthetic-soc:authentication",
+    "split": "calibration",
+    "workflow": "authentication"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:login_correlation",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-1\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-1\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-1\",\"_cd\":\"fixture:2\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Correlate the recorded failed and successful login codes for the shared synthetic account using native event references and timestamps. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "Account_Name",
+      "EventCode"
+    ],
+    "scenario_id": "synthetic-soc:login_correlation",
+    "split": "train",
+    "workflow": "login_correlation"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:powershell",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-2\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Inspect the synthetic PowerShell process image and command line without executing it. Report the recorded fields; suspicion does not prove an attack. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "CommandLine",
+      "Image"
+    ],
+    "scenario_id": "synthetic-soc:powershell",
+    "split": "validation",
+    "workflow": "powershell"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:windows_event",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-3\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Extract the recorded Windows event code and process name from this synthetic Windows Event Log evidence. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "EventCode",
+      "New_Process_Name"
+    ],
+    "scenario_id": "synthetic-soc:windows_event",
+    "split": "evaluation",
+    "workflow": "windows_event"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:sysmon",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-4\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Report the synthetic Sysmon event code and process image, keeping the interpretation limited to supplied fields. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "EventCode",
+      "Image"
+    ],
+    "scenario_id": "synthetic-soc:sysmon",
+    "split": "calibration",
+    "workflow": "sysmon"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:network",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-5\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-5\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Investigate the recorded byte counts and transport fields in this synthetic network traffic evidence. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "bytes",
+      "transport"
+    ],
+    "scenario_id": "synthetic-soc:network",
+    "split": "train",
+    "workflow": "network"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:dns",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-6\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-6\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Inspect the recorded query and record type in this synthetic DNS anomaly exercise; do not infer maliciousness. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "query",
+      "record_type"
+    ],
+    "scenario_id": "synthetic-soc:dns",
+    "split": "validation",
+    "workflow": "dns"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:cloudtrail",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-7\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Report the CloudTrail event name and identity type present in this synthetic AWS evidence. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "eventName",
+      "userIdentity.type"
+    ],
+    "scenario_id": "synthetic-soc:cloudtrail",
+    "split": "evaluation",
+    "workflow": "cloudtrail"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:timeline",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-8\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-8\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-8\",\"_cd\":\"fixture:2\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Build a source-referenced chronology for these synthetic Windows events, preserving their event codes and accounts. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "Account_Name",
+      "EventCode"
+    ],
+    "scenario_id": "synthetic-soc:timeline",
+    "split": "calibration",
+    "workflow": "timeline"
+  },
+  {
+    "difficulty": "intermediate",
+    "document_id": "fixture-case:security_reporting",
+    "event_ids": [
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-9\",\"_cd\":\"fixture:0\",\"index\":\"synthetic_soc\"}",
+      "{\"_bkt\":\"synthetic_soc~fixture-bucket-9\",\"_cd\":\"fixture:1\",\"index\":\"synthetic_soc\"}"
+    ],
+    "question": "Create a structured, source-grounded report of these synthetic cloud events without asserting compromise. Include counts, chronology and relevant recorded fields; leave attack status unconfirmed.",
+    "required_fields": [
+      "eventName",
+      "readOnly"
+    ],
+    "scenario_id": "synthetic-soc:security_reporting",
+    "split": "train",
+    "workflow": "security_reporting"
+  }
+]

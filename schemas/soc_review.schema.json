@@ -1,0 +1,86 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "synthetic_fixture"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "reviewer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewer"
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewed At"
+    },
+    "rationale": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rationale"
+    },
+    "evidence_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Evidence Hash",
+      "type": "string"
+    },
+    "proposed_answer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Proposed Answer"
+    },
+    "answer_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Answer Hash"
+    }
+  },
+  "required": [
+    "status",
+    "evidence_hash"
+  ],
+  "title": "Review",
+  "type": "object"
+}

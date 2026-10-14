@@ -16,5 +16,7 @@ jobs:
       - run: uv run ruff check .
       - run: uv run pytest -q
       - run: uv run cyber-data build --config configs/fixtures.yaml --output outputs/ci
+      - run: uv run cyber-data build --config configs/soc_fixtures.yaml --output outputs/soc-ci
+      - run: uv run cyber-data validate-mcp data/fixtures/soc/mcp.jsonl --schema configs/mcp/synthetic-splunk-v1.json
       - run: uv run cyber-data verify-release data/releases/mitre-pilot-v0.2
       - run: uv run cyber-data audit-publication

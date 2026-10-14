@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    {
+      "cases": "data/fixtures/soc/investigations.json",
+      "format": "splunk_export",
+      "manifest": "data/fixtures/soc/export_manifest.json",
+      "path": "data/fixtures/soc/events.jsonl",
+      "source_id": "soc_fixture"
+    },
+    {
+      "format": "canonical",
+      "path": "data/fixtures/soc/mcp.jsonl",
+      "source_id": "mcp_fixture"
+    }
+  ],
+  "length_policy": "reject_whole_sample",
+  "max_tokens": 2048,
+  "mcp_schemas": [
+    "configs/mcp/synthetic-splunk-v1.json"
+  ],
+  "min_tokens": 1,
+  "mode": "fixture",
+  "near_duplicate_threshold": 0.85,
+  "registry": "configs/sources.yaml",
+  "review_unverified": true,
+  "seed": 42,
+  "split_ratios": {
+    "calibration": 0.4,
+    "evaluation": 0.1,
+    "train": 0.4,
+    "validation": 0.1
+  },
+  "targets": {
+    "general": 64,
+    "security_reasoning": 128,
+    "soc": 192,
+    "structured": 32,
+    "tool_workflow": 96
+  }
+}

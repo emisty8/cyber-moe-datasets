@@ -33,7 +33,7 @@
       "official_url": "https://github.com/splunk/botsv3",
       "dataset_name": "Boss of the SOC v3",
       "publisher": "Splunk",
-      "revision": "v3 distribution; commit unreviewed",
+      "revision": "botsv3@5f556f8b4c4ce0bd7498e642fdb52801e89bee0f",
       "license": "CC0-1.0",
       "restrictions": "Repository CC0; confirm archive and third-party notices before approving extracted data.",
       "format": "pre-indexed Splunk tgz (320.1 MB)",
@@ -49,7 +49,8 @@
       "limitations": [
         "Requires Splunk Enterprise and specific add-ons; not JSONL.",
         "Published archive MD5 d7ccca99a01cff070dff3c139cdc10eb.",
-        "SPL search export and human-reviewed questions/answers required; no gold answers invented."
+        "SPL search export and human-reviewed questions/answers required; no gold answers invented.",
+        "No local Splunk installation or real export discovered for Task B; source remains unapproved."
       ]
     },
     {
@@ -254,6 +255,54 @@
       "citation": "fixture://local",
       "limitations": [
         "Tests only; not a production calibration corpus."
+      ]
+    },
+    {
+      "source_id": "soc_fixture",
+      "official_url": "fixture://soc_fixture",
+      "dataset_name": "Original synthetic soc_fixture",
+      "publisher": "This repository",
+      "revision": "fixture-soc-v1",
+      "license": "CC0-1.0",
+      "restrictions": "Original synthetic test data only; no BOTS or production MCP compatibility claimed.",
+      "format": "Splunk-shaped JSONL",
+      "download_method": "deterministic local fixture generator",
+      "intended_use": [
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "category": "soc",
+      "trust_level": "fixture",
+      "approved": true,
+      "citation": "fixture://soc_fixture",
+      "limitations": [
+        "Test-only; contributes zero genuinely verified SOC examples."
+      ]
+    },
+    {
+      "source_id": "mcp_fixture",
+      "official_url": "fixture://mcp_fixture",
+      "dataset_name": "Original synthetic mcp_fixture",
+      "publisher": "This repository",
+      "revision": "fixture-mcp-v1",
+      "license": "CC0-1.0",
+      "restrictions": "Original synthetic test data only; no BOTS or production MCP compatibility claimed.",
+      "format": "canonical MCP fixture JSONL",
+      "download_method": "deterministic local fixture generator",
+      "intended_use": [
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "category": "tool_workflow",
+      "trust_level": "fixture",
+      "approved": true,
+      "citation": "fixture://mcp_fixture",
+      "limitations": [
+        "Test-only; contributes zero genuinely verified SOC examples."
       ]
     }
   ]

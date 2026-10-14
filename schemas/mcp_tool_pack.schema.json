@@ -1,0 +1,132 @@
+{
+  "$defs": {
+    "MCPTool": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "inputSchema": {
+          "additionalProperties": true,
+          "title": "Inputschema",
+          "type": "object"
+        },
+        "outputSchema": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Outputschema"
+        },
+        "annotations": {
+          "additionalProperties": true,
+          "title": "Annotations",
+          "type": "object"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "inputSchema"
+      ],
+      "title": "MCPTool",
+      "type": "object"
+    },
+    "SearchPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "query_argument": {
+          "title": "Query Argument",
+          "type": "string"
+        },
+        "field_inventory": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Field Inventory",
+          "type": "array"
+        },
+        "indexes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Indexes",
+          "type": "array"
+        },
+        "sourcetypes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Sourcetypes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "query_argument",
+        "field_inventory",
+        "indexes",
+        "sourcetypes"
+      ],
+      "title": "SearchPolicy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "server_id": {
+      "minLength": 1,
+      "title": "Server Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "minLength": 1,
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_url": {
+      "minLength": 1,
+      "title": "Source Url",
+      "type": "string"
+    },
+    "synthetic": {
+      "title": "Synthetic",
+      "type": "boolean"
+    },
+    "tools": {
+      "items": {
+        "$ref": "#/$defs/MCPTool"
+      },
+      "minItems": 1,
+      "title": "Tools",
+      "type": "array"
+    },
+    "search_policies": {
+      "additionalProperties": {
+        "$ref": "#/$defs/SearchPolicy"
+      },
+      "title": "Search Policies",
+      "type": "object"
+    }
+  },
+  "required": [
+    "server_id",
+    "schema_version",
+    "source_url",
+    "synthetic",
+    "tools"
+  ],
+  "title": "MCPToolPack",
+  "type": "object"
+}

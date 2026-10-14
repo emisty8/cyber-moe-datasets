@@ -15,7 +15,9 @@ def write_jsonl(path: Path, rows: list[dict]) -> None:
     temporary = path.with_suffix(path.suffix + ".tmp")
     write_text(
         temporary,
-        "".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in rows),
+        "".join(
+            json.dumps(r, ensure_ascii=False, sort_keys=True, allow_nan=False) + "\n" for r in rows
+        ),
     )
     temporary.replace(path)
 
@@ -35,6 +37,9 @@ def export(
     selected = [s for s in samples if s.split == split]
     rows = []
     for sample in selected:
+        if sample.events and sample.verification_status == "unverified":
+            raise ValueError("unverified SOC cases belong only in the review queue")
+        Sample.model_validate(sample.model_dump())
         if sample.verification_status == "unverified" and kind != "evaluation":
             raise ValueError("unverified sample cannot enter calibration or supervised exports")
         if sample.token_count is None and not allow_unmeasured:
@@ -103,6 +108,15 @@ def export(
                 "content_hash": sample.content_hash,
                 "token_count": sample.token_count,
                 "token_method": sample.token_method,
+                **(
+                    {
+                        "events": [event.model_dump() for event in sample.events],
+                        "review": sample.review.model_dump(),
+                    }
+                    if sample.events
+                    else {}
+                ),
+                **({"mcp_schema": sample.mcp_schema.model_dump()} if sample.mcp_schema else {}),
             }
             for index, sample in enumerate(selected)
         ],

@@ -1,5 +1,13 @@
 # Cyber MoE Datasets
 
+Task B extends this repository with native Splunk CSV/JSON export ingestion,
+evidence-bound review queues, shared-event split grouping and versioned MCP schema
+validation. The current SOC/MCP pilot is **synthetic/test-only**: 10 SOC cases and
+7 MCP traces, with **zero genuinely verified real SOC examples**. The frozen MITRE
+v0.2 release remains unchanged. See [SOC pipeline](docs/SOC_PIPELINE.md),
+[BOTS acquisition/export](docs/BOTS_ACQUISITION.md), and
+[MCP contracts](docs/SPLUNK_MCP_DATASETS.md).
+
 A reproducible dataset preparation repository for **Qwen3-30B-A3B**, BF16,
 Apple M3 Ultra (96 GB), MLX-LM and MLX-FUN. No pruning, training, model-weight
 loading, teacher inference, publication or dataset commands are performed.
@@ -7,7 +15,8 @@ loading, teacher inference, publication or dataset commands are performed.
 Development and dataset validation run on **Windows** in this workspace. All MLX
 model inference, saliency collection, pruning and model evaluation run later on
 the **Apple M3 Ultra**. GitHub transfers reviewed code and small approved exports;
-the Mac checks out a pinned validated commit. No remote or push is configured yet.
+the Mac checks out a pinned validated commit. The configured remote is
+`https://github.com/emisty8/cyber-moe-datasets.git`; Task B has not been pushed.
 See [Mac deployment](docs/MAC_DEPLOYMENT.md) and
 [Windows publication workflow](docs/WINDOWS_WORKFLOW.md).
 

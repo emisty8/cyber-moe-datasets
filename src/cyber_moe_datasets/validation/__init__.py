@@ -56,6 +56,15 @@ def leakage(
             for k, v in groups.items()
             if len(v) > 1
         )
+    event_groups = {}
+    for sample in samples:
+        for event in sample.events:
+            event_groups.setdefault(event.identity, set()).add(sample.split)
+    violations.extend(
+        {"kind": "shared_event", "event": key, "splits": sorted(splits)}
+        for key, splits in event_groups.items()
+        if len(splits) > 1
+    )
     for a, b, kind in duplicate_pairs(samples, threshold):
         if samples[a].split != samples[b].split:
             violations.append(
@@ -66,6 +75,13 @@ def leakage(
         for a, b, kind in duplicate_pairs(combined, threshold):
             if a < len(samples) <= b and samples[a].split != "evaluation":
                 violations.append({"kind": f"benchmark_{kind}", "sample": samples[a].sample_id})
+        reference_events = {event.identity for sample in references for event in sample.events}
+        violations.extend(
+            {"kind": "benchmark_shared_event", "sample": sample.sample_id}
+            for sample in samples
+            if sample.split != "evaluation"
+            and any(event.identity in reference_events for event in sample.events)
+        )
     violations.extend(
         {"kind": "benchmark_partition", "sample": s.sample_id}
         for s in samples
@@ -81,6 +97,10 @@ def leakage(
 def quality(samples: list[Sample]) -> dict:
     return {
         "samples": len(samples),
+        "source_counts": dict(Counter(s.source_id for s in samples)),
+        "unique_source_events": len(
+            {event.identity for sample in samples for event in sample.events}
+        ),
         "splits": dict(Counter(s.split for s in samples)),
         "categories": dict(Counter(s.category for s in samples)),
         "verification": dict(Counter(s.verification_status for s in samples)),
@@ -95,4 +115,12 @@ def quality(samples: list[Sample]) -> dict:
             c: sum(s.token_count or 0 for s in samples if s.category == c)
             for c in sorted({s.category for s in samples})
         },
+        "soc_production_verified": sum(
+            bool(s.events)
+            and not s.provenance.synthetic
+            and s.verification_status == "human_verified"
+            for s in samples
+        ),
+        "synthetic_test_only": sum(s.provenance.synthetic for s in samples),
+        "workflow_coverage": dict(Counter(s.task_type for s in samples)),
     }

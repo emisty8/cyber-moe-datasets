@@ -1,0 +1,94 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_version": {
+      "title": "Source Version",
+      "type": "string"
+    },
+    "source_dataset": {
+      "title": "Source Dataset",
+      "type": "string"
+    },
+    "source_url": {
+      "title": "Source Url",
+      "type": "string"
+    },
+    "license": {
+      "title": "License",
+      "type": "string"
+    },
+    "synthetic": {
+      "title": "Synthetic",
+      "type": "boolean"
+    },
+    "format": {
+      "enum": [
+        "csv",
+        "json",
+        "jsonl"
+      ],
+      "title": "Format",
+      "type": "string"
+    },
+    "payload_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Payload Sha256",
+      "type": "string"
+    },
+    "field_inventory": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Field Inventory",
+      "type": "array"
+    },
+    "export_query": {
+      "minLength": 1,
+      "title": "Export Query",
+      "type": "string"
+    },
+    "splunk_version": {
+      "minLength": 1,
+      "title": "Splunk Version",
+      "type": "string"
+    },
+    "exported_at": {
+      "minLength": 1,
+      "title": "Exported At",
+      "type": "string"
+    },
+    "archive_md5": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Archive Md5"
+    }
+  },
+  "required": [
+    "source_id",
+    "source_version",
+    "source_dataset",
+    "source_url",
+    "license",
+    "synthetic",
+    "format",
+    "payload_sha256",
+    "field_inventory",
+    "export_query",
+    "splunk_version",
+    "exported_at"
+  ],
+  "title": "ExportManifest",
+  "type": "object"
+}

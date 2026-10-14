@@ -1,5 +1,7 @@
 """Audit Git-visible files without staging, committing, contacting a remote or pushing."""
 
+import hashlib
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -57,6 +59,50 @@ def audit(root: Path = Path(".")) -> dict:
             blocked.append(
                 {"file": name, "reason": "possible credential or private key; inspect locally"}
             )
+        if path.suffix == ".jsonl":
+            if not name.startswith(("data/fixtures/", "data/releases/")):
+                blocked.append(
+                    {"file": name, "reason": "dataset JSONL outside approved publication locations"}
+                )
+                continue
+            try:
+                rows = [
+                    json.loads(line)
+                    for line in path.read_text(encoding="utf-8").splitlines()
+                    if line
+                ]
+                if name.startswith("data/fixtures/"):
+                    if all(
+                        row.get("provenance", {}).get("synthetic") is True
+                        and row.get("verification_status") == "synthetic"
+                        for row in rows
+                    ):
+                        pass
+                    else:
+                        metadata = path.parent / "export_manifest.json"
+                        manifest = json.loads(metadata.read_text(encoding="utf-8"))
+                        if (
+                            not manifest.get("synthetic")
+                            or manifest.get("payload_sha256")
+                            != hashlib.sha256(path.read_bytes()).hexdigest()
+                        ):
+                            raise ValueError(
+                                "non-synthetic raw export cannot be published as a fixture"
+                            )
+                if any(
+                    row.get("events") and not row.get("provenance", {}).get("synthetic")
+                    for row in rows
+                ):
+                    raise ValueError("real SOC evidence publication is not authorized by Task B")
+            except (ValueError, KeyError, OSError, TypeError):
+                blocked.append({"file": name, "reason": "unreviewed or real raw dataset artifact"})
+    release_parent = root / "data/releases"
+    if release_parent.exists():
+        from cyber_moe_datasets.releases import verify_release
+
+        for release in sorted(release_parent.iterdir()):
+            if release.is_dir():
+                verify_release(release)
     if blocked:
         raise ValueError(f"Git publication audit rejected files: {blocked}")
     return {

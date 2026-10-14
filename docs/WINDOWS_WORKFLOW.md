@@ -45,8 +45,11 @@ temporary staging directory and leaves no partially published destination.
 
 ## Git review and local commit
 
-The workspace was not previously a Git repository. It is initialized locally on
-`main`; no remote, commit, tag or push is created automatically. Review files first:
+The initial workflow initialized this repository locally. At the Task B audit,
+`main` contains commit `c5427dc`, `dataset-mitre-v0.2` is present, and `origin` is
+`https://github.com/emisty8/cyber-moe-datasets.git`. Task B works on
+`feature/bots-mcp-pipeline`; no automatic commit, tag or push is performed. Review
+the Task B diff first; the commands below describe the original v0.2 publication flow:
 
 ```powershell
 git status --short

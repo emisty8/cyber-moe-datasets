@@ -1,0 +1,16 @@
+{
+  "archive_downloaded": false,
+  "archive_format": "pre-indexed Splunk tgz",
+  "archive_md5_published": "d7ccca99a01cff070dff3c139cdc10eb",
+  "archive_size_published": "320.1 MB",
+  "local_splunk_found": false,
+  "official_url": "https://github.com/splunk/botsv3",
+  "production_events_processed": 0,
+  "production_mcp_schema_found": false,
+  "real_export_found": false,
+  "reference_files_sha256": {
+    "LICENSE": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+    "README.md": "216791b9dea617fcb98d2755940966d497c3ee0256bc4af6934278179b37abac"
+  },
+  "revision": "5f556f8b4c4ce0bd7498e642fdb52801e89bee0f"
+}

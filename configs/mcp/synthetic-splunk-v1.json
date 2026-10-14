@@ -1,0 +1,123 @@
+{
+  "schema_version": "fixture-v1.0.0",
+  "search_policies": {
+    "fixture_search": {
+      "field_inventory": [
+        "_time",
+        "host",
+        "EventCode"
+      ],
+      "indexes": [
+        "synthetic_soc"
+      ],
+      "query_argument": "query",
+      "sourcetypes": [
+        "wineventlog"
+      ]
+    }
+  },
+  "server_id": "synthetic-splunk-fixture-only",
+  "source_url": "fixture://mcp/synthetic-splunk-v1",
+  "synthetic": true,
+  "tools": [
+    {
+      "description": "Synthetic test-only index discovery; no Splunk or production MCP call.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "fixture_indexes",
+      "outputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "indexes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "indexes"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Synthetic test-only sourcetype discovery.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "index": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "index"
+        ],
+        "type": "object"
+      },
+      "name": "fixture_sourcetypes",
+      "outputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sourcetypes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "sourcetypes"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Synthetic bounded read-only search; deliberately not a production tool name.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "query": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "type": "object"
+      },
+      "name": "fixture_search",
+      "outputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "results": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "truncated": {
+            "const": false,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "results",
+          "truncated"
+        ],
+        "type": "object"
+      }
+    }
+  ]
+}
