@@ -10,6 +10,15 @@ from jsonschema import Draft202012Validator
 from jsonschema.exceptions import SchemaError, ValidationError
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+from cyber_moe_datasets.soc_models import (
+    EventEvidence,
+    MCPReference,
+    Review,
+    checksum,
+    evidence_hash,
+    validate_answer,
+)
+
 Split = Literal["unassigned", "calibration", "train", "validation", "evaluation"]
 
 
@@ -71,16 +80,91 @@ class Sample(StrictModel):
     token_method: str = "unavailable"
     content_hash: str = ""
     benchmark: bool = False
+    events: list[EventEvidence] = Field(default_factory=list)
+    review: Review | None = None
+    mcp_schema: MCPReference | None = None
+
+    def review_binding(self) -> str | None:
+        trace = (
+            checksum(
+                {
+                    "schema": self.mcp_schema.model_dump(),
+                    "messages": [
+                        m.model_dump(exclude_defaults=True)
+                        for m in self.messages
+                        if m.role != "assistant" or m.tool_calls
+                    ],
+                }
+            )
+            if self.mcp_schema
+            else None
+        )
+        if self.events and trace:
+            return checksum(
+                {
+                    "events": evidence_hash(self.events),
+                    "tool_trace": trace,
+                    "schema_sha256": self.mcp_schema.schema_sha256,
+                }
+            )
+        return evidence_hash(self.events) if self.events else trace
 
     def content(self) -> dict[str, Any]:
-        return {
+        content = {
             "messages": [m.model_dump(exclude_defaults=True) for m in self.messages],
             "tools": self.tools,
             "expected_answer": self.expected_answer,
         }
+        if self.events:
+            content["events"] = [event.model_dump() for event in self.events]
+        if self.mcp_schema:
+            content["mcp_schema"] = self.mcp_schema.model_dump()
+        return content
 
     @model_validator(mode="after")
     def integrity(self) -> Sample:
+        if self.events:
+            if len({e.identity for e in self.events}) != len(self.events):
+                raise ValueError("duplicate native event evidence")
+            if any(e.source_version != self.source_version for e in self.events):
+                raise ValueError("event source revision mismatch")
+            if self.review is None or self.review.evidence_hash != self.review_binding():
+                raise ValueError("SOC review is missing or bound to different evidence")
+            if self.provenance.synthetic and self.review.status != "synthetic_fixture":
+                raise ValueError("synthetic SOC records require synthetic fixture review status")
+            if not self.provenance.synthetic and self.review.status == "synthetic_fixture":
+                raise ValueError("real evidence cannot have a synthetic review")
+            if self.verification_status == "human_verified" and self.review.status != "approved":
+                raise ValueError("verified SOC sample requires documented review")
+            if not self.provenance.synthetic and self.verification_status == "source_grounded":
+                raise ValueError("real SOC answers require analyst review, not automatic promotion")
+            if self.expected_answer is not None:
+                if self.review.proposed_answer != self.expected_answer:
+                    raise ValueError("answer differs from documented review")
+                validate_answer(self.expected_answer, self.events, self.review.status == "approved")
+            if self.verification_status == "unverified" and self.expected_answer is not None:
+                raise ValueError("unverified SOC candidate must not contain a gold answer")
+            if not self.evidence_references:
+                raise ValueError("SOC sample requires evidence references")
+        if self.mcp_schema and self.mcp_schema.synthetic != self.provenance.synthetic:
+            raise ValueError("MCP schema synthetic status mismatch")
+        if (
+            self.mcp_schema
+            and not self.provenance.synthetic
+            and self.verification_status in {"human_verified", "source_grounded"}
+        ):
+            if (
+                self.verification_status != "human_verified"
+                or self.review is None
+                or self.review.status != "approved"
+            ):
+                raise ValueError("real MCP answers require documented analyst review")
+            binding = self.review_binding()
+            if (
+                self.review.evidence_hash != binding
+                or self.review.proposed_answer != self.expected_answer
+            ):
+                raise ValueError("MCP review is bound to different tool evidence or answer")
         actual = digest(self.content())
         if self.content_hash and self.content_hash != actual:
             raise ValueError("content_hash mismatch")
@@ -102,6 +186,7 @@ class Sample(StrictModel):
             if not fn.get("name") or fn["name"] in schemas:
                 raise ValueError("invalid or duplicate tool name")
             schema = fn.get("parameters", {})
+            ensure_local_schema(schema)
             try:
                 Draft202012Validator.check_schema(schema)
             except SchemaError as exc:
@@ -132,6 +217,18 @@ class Sample(StrictModel):
         if pending:
             raise ValueError("missing tool result")
         return self
+
+
+def ensure_local_schema(value: Any) -> None:
+    if isinstance(value, dict):
+        for key in ("$ref", "$dynamicRef", "$recursiveRef"):
+            if key in value and (not isinstance(value[key], str) or not value[key].startswith("#")):
+                raise ValueError("external JSON Schema references are forbidden")
+        for child in value.values():
+            ensure_local_schema(child)
+    elif isinstance(value, list):
+        for child in value:
+            ensure_local_schema(child)
 
 
 class CalibrationRecord(StrictModel):

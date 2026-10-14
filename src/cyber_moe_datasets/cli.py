@@ -66,6 +66,17 @@ def main() -> None:
     verify = commands.add_parser("verify-release")
     verify.add_argument("path", type=Path)
     commands.add_parser("audit-publication")
+    ingestion = commands.add_parser("ingest-splunk")
+    ingestion.add_argument("payload", type=Path)
+    ingestion.add_argument("--manifest", type=Path, required=True)
+    ingestion.add_argument("--cases", type=Path, required=True)
+    ingestion.add_argument("--reviews", type=Path)
+    ingestion.add_argument("--source-id", required=True)
+    ingestion.add_argument("--registry", type=Path, default=Path("configs/sources.yaml"))
+    ingestion.add_argument("--output", type=Path, default=Path("data/local/bots/candidates.jsonl"))
+    mcp = commands.add_parser("validate-mcp")
+    mcp.add_argument("dataset", type=Path)
+    mcp.add_argument("--schema", type=Path, required=True)
     args = parser.parse_args()
     logging.basicConfig(
         level=logging.INFO, format='{"level":"%(levelname)s","event":"%(message)s"}'
@@ -91,6 +102,39 @@ def main() -> None:
             }
         elif args.command == "build":
             result = build(args.config, args.output, args.model)
+        elif args.command == "ingest-splunk":
+            from cyber_moe_datasets.exporters import write_jsonl
+            from cyber_moe_datasets.ingestion.splunk import ingest_export
+
+            root = Path.cwd().resolve()
+            target = args.output.resolve()
+            if not any(
+                target.is_relative_to(root / prefix) for prefix in ("outputs", "data/local")
+            ):
+                raise ValueError(
+                    "Splunk candidates may be written only to ignored outputs/ or data/local/"
+                )
+            samples = ingest_export(
+                args.payload,
+                args.manifest,
+                args.cases,
+                registry(args.registry)[args.source_id],
+                args.reviews,
+            )
+            write_jsonl(args.output, [s.model_dump() for s in samples])
+            result = {"output": args.output.as_posix(), **quality(samples)}
+        elif args.command == "validate-mcp":
+            from cyber_moe_datasets.mcp import load_pack, validate_pack_sample
+
+            pack = load_pack(args.schema)
+            samples = read_jsonl(args.dataset)
+            for sample in samples:
+                validate_pack_sample(sample, pack)
+            result = {
+                "records_checked": len(samples),
+                "schema": pack.reference().model_dump(),
+                "production_server_compatibility": "unverified; provided pack only",
+            }
         elif args.command == "acquire-tokenizer":
             from cyber_moe_datasets.tokenizer_source import acquire
 

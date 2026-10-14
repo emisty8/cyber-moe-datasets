@@ -32,10 +32,12 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
     samples = []
     inputs = []
     for item in config["inputs"]:
-        if item["format"] not in {"stix", "canonical"}:
+        if item["format"] not in {"stix", "canonical", "splunk_export"}:
             raise ValueError("unsupported source input format")
         source = sources[item["source_id"]]
-        if not source.approved:
+        if not source.approved and not (
+            item["format"] == "splunk_export" and config.get("review_unverified")
+        ):
             raise ValueError("unapproved source")
         path = Path(item["path"])
         inputs.append(
@@ -45,11 +47,32 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
                 "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             }
         )
-        rows = (
-            ingest_stix(path, source, item.get("limit", 80), item.get("reporting", False))
-            if item["format"] == "stix"
-            else read_jsonl(path)
-        )
+        if item["format"] == "splunk_export":
+            from cyber_moe_datasets.ingestion.splunk import ingest_export
+
+            rows = ingest_export(
+                path,
+                Path(item["manifest"]),
+                Path(item["cases"]),
+                source,
+                Path(item["reviews"]) if item.get("reviews") else None,
+            )
+            for name in ("manifest", "cases", "reviews"):
+                if item.get(name):
+                    inputs.append(
+                        {
+                            "source_id": source.source_id,
+                            "path": Path(item[name]).as_posix(),
+                            "sha256": hashlib.sha256(Path(item[name]).read_bytes()).hexdigest(),
+                            "role": name,
+                        }
+                    )
+        else:
+            rows = (
+                ingest_stix(path, source, item.get("limit", 80), item.get("reporting", False))
+                if item["format"] == "stix"
+                else read_jsonl(path)
+            )
         for sample in rows:
             if (
                 sample.source_id != source.source_id
@@ -59,14 +82,39 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
                 raise ValueError("record source metadata disagrees with registry")
             if sample.provenance.synthetic and config["mode"] != "fixture":
                 raise ValueError("synthetic records require fixture mode")
-            if not sample.benchmark and sample.verification_status == "unverified":
+            if (
+                not sample.benchmark
+                and sample.verification_status == "unverified"
+                and not config.get("review_unverified")
+            ):
                 raise ValueError("unverified records cannot enter the validated pilot")
         samples.extend(rows)
+    if config.get("mcp_schemas"):
+        from cyber_moe_datasets.mcp import load_pack, validate_pack_sample
+
+        packs = {
+            pack.reference().schema_sha256: pack
+            for pack in (load_pack(Path(path)) for path in config["mcp_schemas"])
+        }
+        for sample in samples:
+            if sample.mcp_schema:
+                if sample.mcp_schema.schema_sha256 not in packs:
+                    raise ValueError("MCP sample has no matching versioned schema pack")
+                validate_pack_sample(sample, packs[sample.mcp_schema.schema_sha256])
+    elif any(s.mcp_schema for s in samples):
+        raise ValueError("MCP schema pack validation is required")
     references = None
     if config.get("benchmark_references"):
         references = read_jsonl(Path(config["benchmark_references"]))
     quarantined = [s for s in samples if privacy_flags(s)]
-    clean = [s for s in samples if not privacy_flags(s)]
+    review_queue = [
+        s
+        for s in samples
+        if s.verification_status == "unverified"
+        and (not s.benchmark or s.events or s.mcp_schema)
+        and not privacy_flags(s)
+    ]
+    clean = [s for s in samples if not privacy_flags(s) and s not in review_queue]
     rejected = []
     if tokenizer:
         measured = [measure(s, tokenizer) for s in clean]
@@ -83,6 +131,13 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
         for a, b, _ in duplicate_pairs(clean + references, config["near_duplicate_threshold"]):
             if a < len(clean) <= b:
                 clean[a] = Sample.model_validate({**clean[a].model_dump(), "split": "evaluation"})
+        reference_events = {event.identity for sample in references for event in sample.events}
+        clean = [
+            Sample.model_validate({**sample.model_dump(), "split": "evaluation"})
+            if any(event.identity in reference_events for event in sample.events)
+            else sample
+            for sample in clean
+        ]
     assigned = freeze_assignments(clean, config)
     conflict_rejections = []
     preserved = (
@@ -122,6 +177,10 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
     exportable = [s for s in split if s.split != "calibration"] + calibration
     output.mkdir(parents=True, exist_ok=True)
     write_jsonl(output / "canonical.jsonl", [s.model_dump() for s in split])
+    write_jsonl(
+        output / "review_queue.jsonl",
+        [s.model_dump() for s in sorted(review_queue, key=lambda s: s.sample_id)],
+    )
     # Review records remain local-only and may contain sensitive data.
     write_jsonl(output / "quarantine.jsonl", [s.model_dump() for s in quarantined])
     write_jsonl(output / "length_rejections.jsonl", [s.model_dump() for s in rejected])
@@ -160,6 +219,16 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
         "tokenizer_verified": tokenizer is not None,
         "length_filter_verified": tokenizer is not None,
         "calibration_samples": len(calibration),
+        "review_queue_samples": len(review_queue),
+        "production_calibration_samples": sum(not s.provenance.synthetic for s in calibration),
+        "production_target_shortfalls": {
+            category: max(
+                0,
+                target
+                - sum(s.category == category and not s.provenance.synthetic for s in calibration),
+            )
+            for category, target in config["targets"].items()
+        },
         "calibration_token_distribution": {
             category: sum(s.token_count or 0 for s in calibration if s.category == category)
             for category in sorted(config["targets"])
@@ -180,6 +249,10 @@ def build(config_path: Path, output: Path, model: Path | None = None) -> dict:
         "inputs": inputs,
         "sources": [sources[i].model_dump() for i in sorted({s.source_id for s in samples})],
         "model": model.name if model else None,
+        "mcp_schema_packs": {
+            Path(path).as_posix(): hashlib.sha256(Path(path).read_bytes()).hexdigest()
+            for path in config.get("mcp_schemas", [])
+        },
         "model_files": (
             {
                 p.name: hashlib.sha256(p.read_bytes()).hexdigest()

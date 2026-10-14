@@ -1,0 +1,163 @@
+{
+  "branch": "feature/bots-mcp-pipeline",
+  "ci_simulation": {
+    "failed": 0,
+    "passed": 113,
+    "skipped": 3
+  },
+  "frozen_release_unchanged": true,
+  "full_tests": {
+    "failed": 0,
+    "passed": 116,
+    "skipped": 0
+  },
+  "lint": "passed",
+  "mac_validation": "pending",
+  "output_checksums": {
+    "calibration/data.jsonl": "8cb749d46f501a8216ac6ce0a8da75624d11f507e413e103abaa4ebc854baa9b",
+    "calibration/data.metadata.json": "694b0d66523b31868ab41f8b0ad6282e6bc30a069b22ad9a406240b5535edeb0",
+    "canonical.jsonl": "51f86930ad5f4818e3def570175ad6c4d46963f80e84bda33d7947c7c7fc1609",
+    "evaluation/data.jsonl": "c33eabc0816076724191e9136ed8cb2f8ceecbfa57649f8a29266b7607253888",
+    "evaluation/data.metadata.json": "08b781b3ab8541954c271ae9dd8ffa51ee2c4960d05fef98eccd42f7e88198d7",
+    "expert_training/data.jsonl": "69e37c484a7935c687b8d33241df2f5f5bfebb6bcfb122315152c687b6b67f1c",
+    "expert_training/data.metadata.json": "6c323be59c0531a1e39ccb507a03c96377b8feafda9aa1ef3d5da9f9714ef77e",
+    "finetuning/train.jsonl": "3b7a6fd680a6cd1f8de96bf0fa6cafde174ef3a3eb32118d930032f257d98b52",
+    "finetuning/train.metadata.json": "ca9cda8fafda57fffabe0f9010d7fd272c4e7000b492264268485264463c0ece",
+    "finetuning/valid.jsonl": "e98a0c1499e3d85d78fe8caa9d10c6f9b1ab23be43875f4f401ba3002ee3a4e2",
+    "finetuning/valid.metadata.json": "12d9554f08a50de7e9df467c8c404a2c84cca88dc3d7f1cc230601c1ca26a1bc",
+    "leakage_report.json": "4d29ef3e9c7fa8a68e951773d0a48df921ff4054be594983606765432353c6e8",
+    "length_rejections.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "partition_rejections.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "quality_report.json": "512d3471e7a4ad6a03e8c3203cf2b3448511aacd95d99ba8858ba5dbfde54b30",
+    "quarantine.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review_queue.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_manifest.json": "cb85d48a0cffca4ba0cfda4a2b4759b80412193a1ea9266637b030f49b9abbbd",
+    "tokenizer_validation.json": "69322296f6eb9ab7731cb7606b3e89b34e86f2d0db5fb68459537cfececdef78",
+    "train/data.jsonl": "3b7a6fd680a6cd1f8de96bf0fa6cafde174ef3a3eb32118d930032f257d98b52",
+    "train/data.metadata.json": "ca9cda8fafda57fffabe0f9010d7fd272c4e7000b492264268485264463c0ece",
+    "validation/data.jsonl": "e98a0c1499e3d85d78fe8caa9d10c6f9b1ab23be43875f4f401ba3002ee3a4e2",
+    "validation/data.metadata.json": "12d9554f08a50de7e9df467c8c404a2c84cca88dc3d7f1cc230601c1ca26a1bc"
+  },
+  "production_bots_events": 0,
+  "production_mcp_compatibility": "unverified",
+  "production_verified_soc": 0,
+  "public_json_schema_validation": "passed",
+  "publication_audit": "passed",
+  "quality": {
+    "calibration_samples": 5,
+    "calibration_targets": {
+      "general": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 64,
+        "target": 64
+      },
+      "security_reasoning": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 128,
+        "target": 128
+      },
+      "soc": {
+        "available": 3,
+        "selected": 3,
+        "shortfall": 189,
+        "target": 192
+      },
+      "structured": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 32,
+        "target": 32
+      },
+      "tool_workflow": {
+        "available": 2,
+        "selected": 2,
+        "shortfall": 94,
+        "target": 96
+      }
+    },
+    "calibration_token_distribution": {
+      "general": 0,
+      "security_reasoning": 0,
+      "soc": 3440,
+      "structured": 0,
+      "tool_workflow": 937
+    },
+    "categories": {
+      "soc": 9,
+      "structured": 1,
+      "tool_workflow": 7
+    },
+    "known_tokens": 13871,
+    "leakage": {
+      "benchmark_reference_check": "unavailable",
+      "passed": true,
+      "violations": []
+    },
+    "length_filter_verified": true,
+    "length_rejected": 0,
+    "mode": "fixture",
+    "partition_conflict_rejected": 0,
+    "partition_conflict_sample_ids": [],
+    "privacy_review": [],
+    "production_calibration_samples": 0,
+    "production_target_shortfalls": {
+      "general": 64,
+      "security_reasoning": 128,
+      "soc": 192,
+      "structured": 32,
+      "tool_workflow": 96
+    },
+    "quarantine_review": [],
+    "quarantined": 0,
+    "review_queue_samples": 0,
+    "samples": 17,
+    "soc_production_verified": 0,
+    "source_counts": {
+      "mcp_fixture": 7,
+      "soc_fixture": 10
+    },
+    "splits": {
+      "calibration": 5,
+      "evaluation": 3,
+      "train": 5,
+      "validation": 4
+    },
+    "synthetic_test_only": 17,
+    "token_distribution": {
+      "soc": 9265,
+      "structured": 1120,
+      "tool_workflow": 3486
+    },
+    "tokenizer_verified": true,
+    "unique_source_events": 18,
+    "unknown_token_counts": 0,
+    "verification": {
+      "synthetic": 17
+    },
+    "workflow_coverage": {
+      "authentication": 1,
+      "bounded_search": 1,
+      "cloudtrail": 1,
+      "correlation": 1,
+      "discover_indexes": 1,
+      "discover_sourcetypes": 1,
+      "dns": 1,
+      "empty_result": 1,
+      "failed_result": 1,
+      "login_correlation": 1,
+      "network": 1,
+      "powershell": 1,
+      "security_reporting": 1,
+      "structured_tool_report": 1,
+      "sysmon": 1,
+      "timeline": 1,
+      "windows_event": 1
+    }
+  },
+  "reproduced_artifacts": 23,
+  "synthetic_events": 18,
+  "synthetic_mcp_traces": 7,
+  "synthetic_soc_cases": 10
+}

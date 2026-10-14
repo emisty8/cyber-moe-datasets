@@ -71,7 +71,7 @@ def validate_tokenizer(samples: list[Sample], model: Path, max_tokens: int = 204
                             objects.append(decoder.raw_decode(rendered[offset:])[0])
                         except ValueError:
                             pass
-                if expected not in objects:
+                if not any(digest(expected) == digest(value) for value in objects):
                     raise ValueError(
                         f"tool arguments lost during serialization: {sample.sample_id}"
                     )

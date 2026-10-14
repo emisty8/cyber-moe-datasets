@@ -1,0 +1,82 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "scenario_id": {
+      "minLength": 1,
+      "title": "Scenario Id",
+      "type": "string"
+    },
+    "document_id": {
+      "minLength": 1,
+      "title": "Document Id",
+      "type": "string"
+    },
+    "workflow": {
+      "enum": [
+        "authentication",
+        "login_correlation",
+        "powershell",
+        "windows_event",
+        "sysmon",
+        "network",
+        "dns",
+        "cloudtrail",
+        "timeline",
+        "security_reporting"
+      ],
+      "title": "Workflow",
+      "type": "string"
+    },
+    "question": {
+      "minLength": 1,
+      "title": "Question",
+      "type": "string"
+    },
+    "event_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Event Ids",
+      "type": "array"
+    },
+    "required_fields": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Required Fields",
+      "type": "array"
+    },
+    "difficulty": {
+      "default": "intermediate",
+      "enum": [
+        "basic",
+        "intermediate",
+        "advanced"
+      ],
+      "title": "Difficulty",
+      "type": "string"
+    },
+    "split": {
+      "default": "unassigned",
+      "enum": [
+        "unassigned",
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "title": "Split",
+      "type": "string"
+    }
+  },
+  "required": [
+    "scenario_id",
+    "document_id",
+    "workflow",
+    "question",
+    "event_ids"
+  ],
+  "title": "Investigation",
+  "type": "object"
+}

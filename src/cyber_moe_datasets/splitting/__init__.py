@@ -50,6 +50,17 @@ def partition(
             owners[key] = i
     for a, b, _ in duplicate_pairs(samples, threshold):
         union(a, b)
+    event_owners = {}
+    event_contents = {}
+    for i, sample in enumerate(samples):
+        for event in sample.events:
+            content = event.model_dump(exclude={"source_version"})
+            if event.identity in event_contents and content != event_contents[event.identity]:
+                raise ValueError("conflicting source evidence for the same native event")
+            if event.identity in event_owners:
+                union(i, event_owners[event.identity])
+            event_owners[event.identity] = i
+            event_contents[event.identity] = content
     groups: dict[int, list[int]] = {}
     for i in range(len(samples)):
         groups.setdefault(find(i), []).append(i)

@@ -1,0 +1,15 @@
+{
+  "registry": "configs/sources.yaml",
+  "mode": "preview",
+  "review_unverified": true,
+  "seed": 42,
+  "length_policy": "reject_whole_sample",
+  "min_tokens": 1,
+  "max_tokens": 2048,
+  "near_duplicate_threshold": 0.85,
+  "split_ratios": {"calibration": 0.4, "train": 0.4, "validation": 0.1, "evaluation": 0.1},
+  "targets": {"soc": 192, "security_reasoning": 128, "tool_workflow": 96, "general": 64, "structured": 32},
+  "inputs": [
+    {"source_id": "botsv3", "path": "data/local/bots/events.csv", "format": "splunk_export", "manifest": "data/local/bots/export_manifest.json", "cases": "data/local/bots/investigations.json"}
+  ]
+}

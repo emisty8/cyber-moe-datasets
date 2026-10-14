@@ -1,5 +1,13 @@
 # Windows dataset development → Apple Silicon deployment
 
+Task B adds a separate SOC/MCP **fixture** pipeline, not a new production dataset
+release. Do not calibrate the production model on `outputs/soc_fixture_pilot` or
+the synthetic fixture files. Continue using the frozen MITRE release below until
+reviewed BOTS cases and actual MCP schema compatibility are validated. Source,
+schema and synthetic fixture changes can be transferred by a reviewed pinned Git
+commit; raw exports, review queues and unreviewed answers stay off GitHub. A future
+`dataset-soc-v0.3` needs separate source/answer review and publication decisions.
+
 Windows owns source acquisition, dataset engineering, exact tokenizer checks,
 quality reports, exports and release packaging. The M3 Ultra owns all MLX model
 execution. No Windows step loads model weights, imports MLX, collects saliency,
@@ -19,12 +27,14 @@ executed on the Mac. Do not assume your installed tokenizer matches the referenc
 
 ## Clone and select a validated version
 
-The remote and commit are not yet configured. After an authorized Windows push and
-successful CI, replace both placeholders with the actual repository URL and the
-validated full commit SHA. Use an immutable commit, not a floating branch:
+The configured remote is `https://github.com/emisty8/cyber-moe-datasets.git`, and
+the existing MITRE release is tagged `dataset-mitre-v0.2`. Task B's development
+changes have not been committed or pushed automatically. After an authorized
+Windows push and successful CI, replace the commit placeholder with the validated
+full SHA. Use an immutable commit, not a floating branch:
 
 ```sh
-git clone <GITHUB_REPOSITORY_URL> trimming_dataset
+git clone https://github.com/emisty8/cyber-moe-datasets.git trimming_dataset
 cd trimming_dataset
 git fetch --tags
 git checkout --detach <VALIDATED_FULL_COMMIT_SHA>
