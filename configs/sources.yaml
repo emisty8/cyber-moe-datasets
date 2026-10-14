@@ -1,0 +1,260 @@
+{
+  "sources": [
+    {
+      "source_id": "mitre_attack",
+      "official_url": "https://github.com/mitre-attack/attack-stix-data",
+      "dataset_name": "Enterprise ATT&CK 17.1",
+      "publisher": "MITRE",
+      "revision": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "license": "MITRE-ATTACK-terms",
+      "restrictions": "Preserve MITRE copyright and complete license with every copy; see docs/licenses/MITRE_LICENSE.txt.",
+      "format": "STIX 2.1 JSON",
+      "download_method": "pinned HTTPS with SHA256",
+      "intended_use": [
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "category": "security_reasoning",
+      "trust_level": "official",
+      "approved": true,
+      "citation": "https://github.com/mitre-attack/attack-stix-data",
+      "limitations": [
+        "Field extraction and documented detection reports are source-grounded, not validated incident reasoning.",
+        "Portable pilot scopes 240 active techniques; selection is not representative.",
+        "Sub-technique families and near duplicates grouped; semantic leakage beyond lexical similarity remains possible."
+      ],
+      "download_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+      "sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b"
+    },
+    {
+      "source_id": "botsv3",
+      "official_url": "https://github.com/splunk/botsv3",
+      "dataset_name": "Boss of the SOC v3",
+      "publisher": "Splunk",
+      "revision": "v3 distribution; commit unreviewed",
+      "license": "CC0-1.0",
+      "restrictions": "Repository CC0; confirm archive and third-party notices before approving extracted data.",
+      "format": "pre-indexed Splunk tgz (320.1 MB)",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "soc",
+      "trust_level": "official",
+      "approved": false,
+      "citation": "https://github.com/splunk/botsv3",
+      "limitations": [
+        "Requires Splunk Enterprise and specific add-ons; not JSONL.",
+        "Published archive MD5 d7ccca99a01cff070dff3c139cdc10eb.",
+        "SPL search export and human-reviewed questions/answers required; no gold answers invented."
+      ]
+    },
+    {
+      "source_id": "reap_reference",
+      "official_url": "https://github.com/CerebrasResearch/reap",
+      "dataset_name": "REAP methodology",
+      "publisher": "Cerebras Research",
+      "revision": "unreviewed",
+      "license": "Apache-2.0 (code; confirm selected revision)",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "Python reference recipe",
+      "download_method": "explicit local acquisition",
+      "intended_use": [],
+      "category": "methodology",
+      "trust_level": "official",
+      "approved": false,
+      "citation": "https://github.com/CerebrasResearch/reap",
+      "limitations": [
+        "Code license grants no blanket upstream dataset redistribution rights.",
+        "Recipe: 4096 coding + 12288 reasoning + 4096 single-turn tools + 4096 agentic samples; 16384 max tokens."
+      ]
+    },
+    {
+      "source_id": "cyberseceval",
+      "official_url": "https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks",
+      "dataset_name": "CyberSecEval / CyberSOCEval",
+      "publisher": "Meta",
+      "revision": "unreviewed",
+      "license": "Llama 3.2 Community License (repository root); per-file review pending",
+      "restrictions": "Evaluation-only; review custom and third-party terms before acquisition.",
+      "format": "benchmark JSON and code",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "evaluation"
+      ],
+      "category": "benchmark",
+      "trust_level": "official",
+      "approved": false,
+      "citation": "https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks",
+      "limitations": [
+        "No benchmark downloaded; contamination reference unavailable.",
+        "SOC threat-intelligence and malware evaluation candidates; use official scoring harness later."
+      ]
+    },
+    {
+      "source_id": "xlam",
+      "official_url": "https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k",
+      "dataset_name": "Salesforce/xlam-function-calling-60k",
+      "publisher": "Salesforce",
+      "revision": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+      "license": "CC-BY-4.0",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "gated JSON",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "tool_workflow",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k",
+      "limitations": [
+        "Official APIGen synthetic dataset; accept terms through upstream site.",
+        "Publisher reports format/execution/semantic verification; local schema review still required.",
+        "Pinned official data URL returned HTTP 401 without credentials on 2026-10-14; no payload downloaded."
+      ]
+    },
+    {
+      "source_id": "swe_smith",
+      "official_url": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories",
+      "dataset_name": "SWE-bench/SWE-smith-trajectories",
+      "publisher": "SWE-bench",
+      "revision": "unreviewed",
+      "license": "MIT (card); upstream repository rights require review",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "Parquet",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "tool_workflow",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/SWE-bench/SWE-smith-trajectories",
+      "limitations": [
+        "Large agent trajectories; group by task/repository and review embedded code licenses.",
+        "Published synthetic Claude-generated trajectories; not executed here."
+      ]
+    },
+    {
+      "source_id": "mixture_thoughts",
+      "official_url": "https://huggingface.co/datasets/open-r1/Mixture-of-Thoughts",
+      "dataset_name": "open-r1/Mixture-of-Thoughts",
+      "publisher": "open-r1",
+      "revision": "unreviewed",
+      "license": "unknown",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "Parquet",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "general",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/open-r1/Mixture-of-Thoughts",
+      "limitations": [
+        "Generated reasoning traces; upstream subset rights require review.",
+        "No hidden chain-of-thought fabricated or added by this project."
+      ]
+    },
+    {
+      "source_id": "evol_code",
+      "official_url": "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1",
+      "dataset_name": "theblackcat102/evol-codealpaca-v1",
+      "publisher": "theblackcat102",
+      "revision": "unreviewed",
+      "license": "unknown",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "HF dataset",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "general",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1",
+      "limitations": [
+        "Upstream license chain unresolved; not downloaded."
+      ]
+    },
+    {
+      "source_id": "attackqa",
+      "official_url": "https://huggingface.co/datasets/sambanovasystems/attackqa",
+      "dataset_name": "sambanovasystems/attackqa",
+      "publisher": "sambanovasystems",
+      "revision": "unreviewed",
+      "license": "Apache-2.0 plus MITRE terms",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "HF dataset",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train"
+      ],
+      "category": "security_reasoning",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/sambanovasystems/attackqa",
+      "limitations": [
+        "Official SambaNova dataset card cites AttackQA paper and MITRE origin.",
+        "Potential overlap with ATT&CK pilot; join technique/document families before splitting.",
+        "Revision, label quality and current maintenance not verified."
+      ]
+    },
+    {
+      "source_id": "cybersecurity_1m",
+      "official_url": "https://huggingface.co/datasets/WhitzardAgent/CyberSecurity-1M",
+      "dataset_name": "WhitzardAgent/CyberSecurity-1M",
+      "publisher": "WhitzardAgent",
+      "revision": "unreviewed",
+      "license": "conflicting Apache-2.0 and noncommercial/no redistribution conditions",
+      "restrictions": "Review upstream attribution and per-file rights before redistribution.",
+      "format": "gated JSONL",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "evaluation"
+      ],
+      "category": "soc",
+      "trust_level": "candidate",
+      "approved": false,
+      "citation": "https://huggingface.co/datasets/WhitzardAgent/CyberSecurity-1M",
+      "limitations": [
+        "Aggregated third-party content; contradictory card and gate terms.",
+        "Rejected for automatic ingestion pending rights and provenance review."
+      ]
+    },
+    {
+      "source_id": "fixture",
+      "official_url": "fixture://local",
+      "dataset_name": "Synthetic pipeline fixtures",
+      "publisher": "This repository",
+      "revision": "1",
+      "license": "CC0-1.0",
+      "restrictions": "Original synthetic test data dedicated under CC0-1.0.",
+      "format": "canonical JSONL",
+      "download_method": "explicit local acquisition",
+      "intended_use": [
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "category": "test",
+      "trust_level": "fixture",
+      "approved": true,
+      "citation": "fixture://local",
+      "limitations": [
+        "Tests only; not a production calibration corpus."
+      ]
+    }
+  ]
+}

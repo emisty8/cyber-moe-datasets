@@ -1,0 +1,104 @@
+{
+  "calibration_samples": 132,
+  "calibration_targets": {
+    "general": {
+      "available": 0,
+      "selected": 0,
+      "shortfall": 64,
+      "target": 64
+    },
+    "security_reasoning": {
+      "available": 100,
+      "selected": 100,
+      "shortfall": 28,
+      "target": 128
+    },
+    "soc": {
+      "available": 0,
+      "selected": 0,
+      "shortfall": 192,
+      "target": 192
+    },
+    "structured": {
+      "available": 78,
+      "selected": 32,
+      "shortfall": 0,
+      "target": 32
+    },
+    "tool_workflow": {
+      "available": 0,
+      "selected": 0,
+      "shortfall": 96,
+      "target": 96
+    }
+  },
+  "calibration_token_distribution": {
+    "general": 0,
+    "security_reasoning": 40952,
+    "soc": 0,
+    "structured": 14402,
+    "tool_workflow": 0
+  },
+  "categories": {
+    "security_reasoning": 234,
+    "structured": 198
+  },
+  "known_tokens": 185217,
+  "leakage": {
+    "benchmark_reference_check": "unavailable",
+    "passed": true,
+    "violations": []
+  },
+  "length_filter_verified": true,
+  "length_rejected": 0,
+  "mode": "production",
+  "partition_conflict_rejected": 14,
+  "partition_conflict_sample_ids": [
+    "mitre-report:attack-pattern--0979abf9-4e26-43ec-9b6e-54efc4e70fca",
+    "mitre-report:attack-pattern--0a241b6c-7bb2-48f9-98f7-128145b4d27f",
+    "mitre-report:attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+    "mitre-report:attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea",
+    "mitre-report:attack-pattern--166de1c6-2814-4fe5-8438-4e80f76b169f",
+    "mitre-report:attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+    "mitre-report:attack-pattern--2339cf19-8f1e-48f7-8a91-0262ba547b6f",
+    "mitre-report:attack-pattern--34ab90a3-05f6-4259-8f21-621081fdaba5",
+    "mitre-report:attack-pattern--36aa137f-5166-41f8-b2f0-a4cfa1b4133e",
+    "mitre-report:attack-pattern--51e54974-a541-4fb6-a61b-0518e4c6de41",
+    "mitre:attack-pattern--2339cf19-8f1e-48f7-8a91-0262ba547b6f",
+    "mitre:attack-pattern--34ab90a3-05f6-4259-8f21-621081fdaba5",
+    "mitre:attack-pattern--36aa137f-5166-41f8-b2f0-a4cfa1b4133e",
+    "mitre:attack-pattern--51e54974-a541-4fb6-a61b-0518e4c6de41"
+  ],
+  "privacy_review": [],
+  "quarantine_review": [
+    {
+      "flags": [
+        "ipv4"
+      ],
+      "sample_id": "mitre:attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58"
+    },
+    {
+      "flags": [
+        "ipv4"
+      ],
+      "sample_id": "mitre:attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3"
+    }
+  ],
+  "quarantined": 2,
+  "samples": 432,
+  "splits": {
+    "calibration": 181,
+    "evaluation": 43,
+    "train": 187,
+    "validation": 21
+  },
+  "token_distribution": {
+    "security_reasoning": 97393,
+    "structured": 87824
+  },
+  "tokenizer_verified": true,
+  "unknown_token_counts": 0,
+  "verification": {
+    "source_grounded": 432
+  }
+}

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.jsonl text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.lock text eol=lf
+*.txt text eol=lf
+*.npz binary
+*.safetensors binary

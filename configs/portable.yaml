@@ -1,0 +1,33 @@
+{
+  "frozen_partitions": "data/manifests/frozen_pilot_partitions.json",
+  "frozen_sample_ids": "data/manifests/frozen_pilot_sample_ids.json",
+  "inputs": [
+    {
+      "format": "stix",
+      "limit": 240,
+      "path": "data/raw/enterprise-attack-17.1.json",
+      "reporting": true,
+      "source_id": "mitre_attack"
+    }
+  ],
+  "length_policy": "reject_whole_sample",
+  "max_tokens": 2048,
+  "min_tokens": 1,
+  "mode": "production",
+  "near_duplicate_threshold": 0.85,
+  "registry": "configs/sources.yaml",
+  "seed": 42,
+  "split_ratios": {
+    "calibration": 0.4,
+    "evaluation": 0.1,
+    "train": 0.4,
+    "validation": 0.1
+  },
+  "targets": {
+    "general": 64,
+    "security_reasoning": 128,
+    "soc": 192,
+    "structured": 32,
+    "tool_workflow": 96
+  }
+}

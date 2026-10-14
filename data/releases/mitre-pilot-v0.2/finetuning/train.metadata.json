@@ -1,0 +1,3372 @@
+{
+  "kind": "train",
+  "preview": false,
+  "records": [
+    {
+      "content_hash": "e553027e310b2c4dbc4eca77182244bcbe270d62b8821e5d3979519cccce47af",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 0,
+      "sample_id": "mitre-report:attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 320,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "7be01c9ad5422642781e2cc3e9c852dd210306546aa0462f8b098997738290be",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 1,
+      "sample_id": "mitre-report:attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 228,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ddf251d4f4bb319bc5785a916faebb5123a1087b1cc22e3167abe591e37f894a",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 2,
+      "sample_id": "mitre-report:attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 302,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "3400f187482df083750016cf766352539e4ecccb97c0342f7d99f83187f3f5ab",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 3,
+      "sample_id": "mitre-report:attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 496,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "16806892ef51a8212576b4341f11ca2ef05877de6b14dcab07eecc5a0f97345e",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 4,
+      "sample_id": "mitre-report:attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 372,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a1c6ddedccd807b42ee54da6f668f76b9228dd612b9fd6359c8328e7211eb545",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 5,
+      "sample_id": "mitre-report:attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 502,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "3d041fa6af73a4f88ad88f6745a376891b1d3208d670556bddbd5300731bb016",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 6,
+      "sample_id": "mitre-report:attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 388,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fc0c0310509c53455d73b52a088a0193d9bbbc1d34fffc2490a3be3649ddd63e",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 7,
+      "sample_id": "mitre-report:attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 334,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "14a38cf6c97957c6433ea8c92d8c0ba60b01723aeef68c6d04264c1375dd4b6f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 8,
+      "sample_id": "mitre-report:attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 416,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "78fc032641a5aa49299305295c4d9704172d3edc95a66e3de643b697444f4281",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 9,
+      "sample_id": "mitre-report:attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 452,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6462bd7affdba6ca2f78d740fb09e4e5644ed2106307550da2001a9fe10454b3",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 10,
+      "sample_id": "mitre-report:attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 230,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ec0eccd0dfe59ceb5e52f64c65fb71dbc8e7c76ec3e6edd87161d187ada58be7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 11,
+      "sample_id": "mitre-report:attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 230,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "42f97340d36b498e444134ce1e8c714d2a96fb3ed06f4a98bf68f41dc4f7c96e",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 12,
+      "sample_id": "mitre-report:attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 380,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c866ebfbbfb0115b14541f61276fb6e65d13fe66ffb1393e496126d41d26c3b1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 13,
+      "sample_id": "mitre-report:attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 486,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d0eae5e45c85f281bd9ec4887aadd9c3f8a08036330c5abd745a715227fc10d1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 14,
+      "sample_id": "mitre-report:attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 846,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ee0f44ff5d12c277654e96d51da09547dcc1146cbb1c2124b36565a091c7cc57",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 15,
+      "sample_id": "mitre-report:attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 356,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "4a33bbb70751971036bd71b99a6e59f897415d68628e26d756098e53ee9f4a89",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 16,
+      "sample_id": "mitre-report:attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 502,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b4b0caaed752992b10036619ed7590bc37f8f267acebc48a0d0d724e425b3dfe",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 17,
+      "sample_id": "mitre-report:attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 564,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "76d45a665ae0c8918c7a106fadfdd4dae0c8dde6936722a092a80285f72a85f5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 18,
+      "sample_id": "mitre-report:attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 1116,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "297be26b30df80daee11e59fcc11f965688623a5b7f4bb369a6d6d358bff68c8",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 19,
+      "sample_id": "mitre-report:attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 294,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "514c07fa568e297f402a46d0f371dc41c52e595f5669e6aa38647e64c819e6fe",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 20,
+      "sample_id": "mitre-report:attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 394,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c50863d4213ad8a8a30e229d6626570b0c6f24625dce20bfa1446d62c86c3c99",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 21,
+      "sample_id": "mitre-report:attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 778,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b71e948a111003c9eefbf3e9419ea2491f7ce259b02d3b9cf9ba42df52374056",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 22,
+      "sample_id": "mitre-report:attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 212,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "4e30db674e6ff96b496c90a3ad96eadd0f90758f0f04d258b4acc7d19b76678f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 23,
+      "sample_id": "mitre-report:attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 330,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ea14a488373797bda0d7cb73ad40068b59ec32fa305e495f4c5b9c5707143c8c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 24,
+      "sample_id": "mitre-report:attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 250,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "97a6fdebf304a85307beea85492b9e0bc32e1f6d892bc75fb519b9226845cf4c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 25,
+      "sample_id": "mitre-report:attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 198,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ac238e68173529e49e0d074911cd222d063170d7cfe4034eeedaca4760e1854b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 26,
+      "sample_id": "mitre-report:attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 522,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9a556f65151fa727ee7c85aa20e06047d25ae54e92a35580beab96dbecb8a314",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 27,
+      "sample_id": "mitre-report:attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 346,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "85cf8cce4fe7698678cdc02a9fd2c166dab27e4dc66edd72d0471c5ed2f72f17",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 28,
+      "sample_id": "mitre-report:attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 370,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e14452f1e987c3768e9a561b8726b80bea1ff55d7bc323dd09ceee635decb178",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 29,
+      "sample_id": "mitre-report:attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 432,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c2d620553e159e3a95fc1f6a509101ea96ba1358a456825158f00fffa8199f82",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 30,
+      "sample_id": "mitre-report:attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 358,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a83578b706df8daaa277df8f7ebbd62c0d51e191a375e298cf98f30df8fe3832",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 31,
+      "sample_id": "mitre-report:attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 282,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b22e9a09688f41d19b7e3bdfc942c18e0e63bdebedcc5871ca95e81176593129",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 32,
+      "sample_id": "mitre-report:attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 758,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8f57196ab7a7066d8f3c1cfa9c805913276cbaec776b820840c794e6bc0216aa",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 33,
+      "sample_id": "mitre-report:attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 342,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "12555760f0d9598965110ba747cfc3d306ab6812c1ab064754e9fa05c5e2af96",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 34,
+      "sample_id": "mitre-report:attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 494,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "7fdf45f74589547eb7a9579e13558dbcd173d2c8824199bef52241fd9e64ef9f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 35,
+      "sample_id": "mitre-report:attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 382,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c600cdfb021aab62bc9febdc9e6e7b4db40b590eab3df108fd414a154efbae60",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 36,
+      "sample_id": "mitre-report:attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 414,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "2c3cd42e37daf744ea2d7530a42e456604f9012173e5e4c14f9336377ee0dd39",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 37,
+      "sample_id": "mitre-report:attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 336,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a1baef483806cc0ed513c9813ddffbcd230d62dc78c0495a31e0a2fee49976ae",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 38,
+      "sample_id": "mitre-report:attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 340,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b87d42a591b073b04fbcb27b9b49978a616d029322cbfaf8ec655c6854747b33",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 39,
+      "sample_id": "mitre-report:attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 596,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "1b59b573924bad37c3776a365d02f3d7bacec73ede9c11f5e3625910d92910b4",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 40,
+      "sample_id": "mitre-report:attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 332,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f33603a205b286074a82d7ea036637e5f4a49c7c3417c5aaae5a0b324aba8bc2",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 41,
+      "sample_id": "mitre-report:attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 478,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a8fddd253ec8061c3ab4f06b829dfa9e9c796b300f5e2f217785e6f0da0fbd8d",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 42,
+      "sample_id": "mitre-report:attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 224,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "cba92aa272cbcbd54b497d282c5ae411dac896a7570f299e8a30a90499de4c50",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 43,
+      "sample_id": "mitre-report:attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 712,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "0359f61f86d4a21a0c5306caab492fd741af8f3b0c57700b3bd9a5888593ad01",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 44,
+      "sample_id": "mitre-report:attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 288,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "df19340edfb689bdbab5e1f3b3388c86521c3754e3c503e56d7fa6e9a9c8d102",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 45,
+      "sample_id": "mitre-report:attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 372,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "60f01f179199298b001eeb9c2f0fada668277ec52611b9eb89ff31639407c49a",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 46,
+      "sample_id": "mitre-report:attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 512,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "4a9f04d71d89f255c46ac93a83f4dce4a5e6535f0b05ef668c8ab82ff8459b1f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 47,
+      "sample_id": "mitre-report:attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 362,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "596a311e3279d2d1383d534875f35354c985ba1e7a06499239ba83f9ca2a9524",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 48,
+      "sample_id": "mitre-report:attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 334,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b96847ca33974311e8131b7b169d2627636dcc43043515f81fbf272563cc3e30",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 49,
+      "sample_id": "mitre-report:attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 252,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "97f085eecb3fffbc7f859932277e11d4ac7ee1edf9c70e7d28c340bd37ca5898",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 50,
+      "sample_id": "mitre-report:attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 428,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "1020cb3650a18abb24340468529e615fdd6cb6dd4390a0500622f1fb51413ba5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 51,
+      "sample_id": "mitre-report:attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 294,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b946e118d1346614f3530b9dc7414b6e570aef9b49489a2620fdb842dc88fc28",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 52,
+      "sample_id": "mitre-report:attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 454,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f044a692ca0256d27829853a919df040d9861fade6b5ed41e226d9ae64a7560b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 53,
+      "sample_id": "mitre-report:attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 440,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "32bf8e0296f6648186194998afd5f25f60edc3790033bfc7ec28b45419fe425d",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 54,
+      "sample_id": "mitre-report:attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 392,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d8d5fa4cf69e19346332f38fe6a9a5991b3f15b156a7474518142361e48367da",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 55,
+      "sample_id": "mitre-report:attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 240,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "72c820f675926cb2bd0445156ca9b8462a3130e928d18b2b3cf64a44073c762e",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 56,
+      "sample_id": "mitre-report:attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 342,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "022ef1ce767cc04c0d57b26e209a23b67559a80481e45531cb637ca32e0e441d",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 57,
+      "sample_id": "mitre-report:attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 372,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6be4119bc3261bc0b8d2f7f7e0ccb47f841f8a85ae3e6cb01db6bd9ef59795d9",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 58,
+      "sample_id": "mitre-report:attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 638,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a4f6facec4975a6358f1772de0c9c4077b34f1648a1b6104d874365168926c60",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 59,
+      "sample_id": "mitre-report:attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 380,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d946b6fe6a45eb2ec48c4bd6a27cc5552bd3634b388c6fdae5525214bd8ca183",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 60,
+      "sample_id": "mitre-report:attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 610,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fa0a5e1f150d854d738b0b98a8835da7224b3d20236f40ed4fe0261f99e00cb7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 61,
+      "sample_id": "mitre-report:attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 586,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "55cd8a1db7090e639346be88b550ad11549bf43d139e15d7e61154ebe267da29",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 62,
+      "sample_id": "mitre-report:attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 262,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ba3abde9d4a3e8fa5efde902ae66ffd33648cb96b5078409b56c84870da63d8c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 63,
+      "sample_id": "mitre-report:attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 254,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e53c3862bf4d572f9419b6616776edf9a9f036fdaf1616250f1bc6ff342bae88",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 64,
+      "sample_id": "mitre-report:attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 364,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "2d47ffb17cc06cd7de5672cc9b3ddb2ca6589f843c86957c8ed31a778b4b8e8a",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 65,
+      "sample_id": "mitre-report:attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 244,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "48c0d522400a92cf83a71664106e4a807b904b9d3da35ac030516dd62710fcf2",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 66,
+      "sample_id": "mitre-report:attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 330,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "3cb970c099d674a71383b88c6b8a1dcd0482adc4051795836b545472b247c936",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 67,
+      "sample_id": "mitre-report:attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 546,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8ec8683e2e4589b66e271bfa1ca13970ab46ca2cce8470ec8b96e7cb150e50ed",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 68,
+      "sample_id": "mitre-report:attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 476,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6e15447b359194ed6f816749dcbb262890fdf75e322d15e0b930dbc47dba9a45",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 69,
+      "sample_id": "mitre-report:attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 538,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "dcce31a004fb2eb8530d8bb947f63937919b745f1d20c7f5fba23607a62d3b61",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 70,
+      "sample_id": "mitre-report:attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 752,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f61706629ad022424e6150954a8acb5ca68d04db2c2582144c4836ecaed2c23c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 71,
+      "sample_id": "mitre-report:attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 440,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "04df41b944e4a0f541730449edcd4d32456bb267ef18079203a850c1833f5ab5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 72,
+      "sample_id": "mitre-report:attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 968,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "5deadd53f0dd4b6996dcb2698513f30993fc5b04e3024b648d2c27cd4fbee949",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 73,
+      "sample_id": "mitre-report:attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 352,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "28105257b8553d2d25975f1fdd80d804341bb904ba98474eb74ce149c40780e0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 74,
+      "sample_id": "mitre-report:attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 502,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "55365feac32c6b642cf6c6d2a675bb04931c10622d624b845f7a2b2ffbd2f6c1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 75,
+      "sample_id": "mitre-report:attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 288,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ee2eec4e772498256a8459ba06d3ecb2580ac357e47b862da8aa477f5ed2ae88",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 76,
+      "sample_id": "mitre-report:attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 340,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "28149fa623e446304c5c6891b8b2457254e825e3ce2744efe2054779d7bacbfe",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 77,
+      "sample_id": "mitre-report:attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 398,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "14d72f9862cf80ddb89ebb0233506aa1b285f17e2b3c5e5072089f42f4cd0f37",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 78,
+      "sample_id": "mitre-report:attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 452,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6a7ab926e4b153385cd0114f1cb11f9f8413262437ddc1023436cc69307af29b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 79,
+      "sample_id": "mitre-report:attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 844,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "01d158a1dd5a00fe3201a167be9a1cf01f55f63aac7e509c951152e2adc35ff3",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 80,
+      "sample_id": "mitre-report:attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 368,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ec4de9758a0f3ebbf424a860976e4c1690aa1059aeda0b2531f77e2fd83f99e0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 81,
+      "sample_id": "mitre-report:attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 444,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d6a44f54df5571e62a0c0b668009b2b4cdd0b4866c0a5cfff6615018020a5161",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 82,
+      "sample_id": "mitre-report:attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 1462,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a37c57af569325cda1ef7b77f1ee0e49467d7a09be40df4d6311b4ae434876c8",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 83,
+      "sample_id": "mitre-report:attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 360,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "4316ee51735c217c5edfa2ca7a0bf7cdf8dafeee375c5ffdc7327f09c32c41b9",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 84,
+      "sample_id": "mitre-report:attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 324,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9efed699040b8cf6c1c8cd915093eb9cd018e1d6a9830e9d157833adfa84e9d6",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 85,
+      "sample_id": "mitre-report:attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 392,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "3fb294d8e02086ccc58656ecf0b1b3f8ada2051b0b5c50a0a1d618b218e151f0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 86,
+      "sample_id": "mitre-report:attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 260,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "34586f6e3c538486ce855e160d667a671f81caafef1aa6e174a0721d241c1292",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract documented detection guidance and data sources; no inferred recommendations"
+      },
+      "row": 87,
+      "sample_id": "mitre-report:attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 410,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9fa90a008ad86847e1f9e19e6cec46ee0fca8a25bfae29383bb52681a74d54e1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 88,
+      "sample_id": "mitre:attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 606,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e09664bb9119f1792bbd817aab7e79867ce088cb2cfe8f35e4500492c84c090b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 89,
+      "sample_id": "mitre:attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 468,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e850742dea98407724764200af2a42eabc4faea3d1bba7ffc3411f940d686406",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 90,
+      "sample_id": "mitre:attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 204,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "76b16693541e12096b288da1d7e3df65cef3dfd6aca8a32d584ff8bb3c78ac76",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 91,
+      "sample_id": "mitre:attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 346,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b82239a28411f784aafa44c4dddaa40b81de8588b7e1a43501d1131c3fa370f4",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 92,
+      "sample_id": "mitre:attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 748,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "05b98669455f1776951e802a60fe088266e5c159c2e890cb91202e6d6f1248a5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--04a5a8ab-3bc8-4c83-95c9-55274a89786d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 93,
+      "sample_id": "mitre:attack-pattern--04a5a8ab-3bc8-4c83-95c9-55274a89786d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 324,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "236cd84930b1ea9f9d844191e2890d5f96ecb6cf66dec3902105a64a36112925",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 94,
+      "sample_id": "mitre:attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 372,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b06f650111615509bdb092e17dec254d59c4098889e3c3e5ce61ba854f154996",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 95,
+      "sample_id": "mitre:attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 248,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f584b375f2c133ab21e20a1b8901a4ee1543429ad6fb9ba643016c5dc788dfda",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 96,
+      "sample_id": "mitre:attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 573,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ec8f74e2b9940281ce407efe48efae1150a2bfb97d35e9b6305be7c96012b454",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0979abf9-4e26-43ec-9b6e-54efc4e70fca",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 97,
+      "sample_id": "mitre:attack-pattern--0979abf9-4e26-43ec-9b6e-54efc4e70fca",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 410,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "868d67cc06afed101f36ee4a87559f55639eb95e5133f20b15814a1a3623a1e7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 98,
+      "sample_id": "mitre:attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 408,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f1c9837584bc52e2918b1cd40681008b3d8b5cab8c2378ebc3446a7b7e784819",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 99,
+      "sample_id": "mitre:attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 468,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "66bf529c261ae133c56a651ddc1debe84a939d1f4478cc1b9aa2c17459c8fd39",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 100,
+      "sample_id": "mitre:attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 238,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f7b059cb5b96189cb35663c7a805f519949f375b7e5e3ff24e0f84fd772c05ea",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 101,
+      "sample_id": "mitre:attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 594,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "27bae100fe5df349cc9658f911f80ce768d1481c6f3b666b716d1896ec2502e0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 102,
+      "sample_id": "mitre:attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 575,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8268223e7df7fbddc0cffcf443a19b297c16853860c292ad6f35662b52cdf856",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 103,
+      "sample_id": "mitre:attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 462,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "516898843ea26a0c0a034956fe2d64d3e0f0cca7003a5472f390cc5360075412",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 104,
+      "sample_id": "mitre:attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 521,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "62b3c6a1114a7b1e6e97b4e3a3a198929d5271ad65769e200a7eb3a4b9d05919",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1001e0d6-ee09-4dfc-aa90-e9320ffc8fe4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 105,
+      "sample_id": "mitre:attack-pattern--1001e0d6-ee09-4dfc-aa90-e9320ffc8fe4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 366,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fafa52722b924a9eabd0a71a94744ff57d673601fff453640b7f39073d0ff410",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 106,
+      "sample_id": "mitre:attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 624,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "cfdb79f473efc07935bc5c6628c5c8d001ae90a3a3b8a6cedc000f4d92373d38",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 107,
+      "sample_id": "mitre:attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 784,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "1f522967559ad4488aad2c0faa76c0c669acf04bd4523e77e3aae83148ecdbc6",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 108,
+      "sample_id": "mitre:attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 207,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "58580c8b00e0ed5174081f6a79a26f3c13050ecd9820713f3e48dcdc0114e261",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--155207c0-7f53-4f13-a06b-0a9907ef5096",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 109,
+      "sample_id": "mitre:attack-pattern--155207c0-7f53-4f13-a06b-0a9907ef5096",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 563,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "67b427a6cb8af16319ac66cf61207aa7d0109ab7a44014bd2451a8ab8761637c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 110,
+      "sample_id": "mitre:attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 199,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "7ebd8e384982c3a093af105f99733f6a6060b80dc0071b789d6d26e4af6d0bc7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 111,
+      "sample_id": "mitre:attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 200,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e65cf0efa16a6f935d369832e6f089be9b3da9e8d3778133c0d91388926f73af",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--166de1c6-2814-4fe5-8438-4e80f76b169f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 112,
+      "sample_id": "mitre:attack-pattern--166de1c6-2814-4fe5-8438-4e80f76b169f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 379,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d4c7ea5fc1bfbb03b0345cc61ae955eb898c2b54e53393aee747beb8f39741f8",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 113,
+      "sample_id": "mitre:attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 475,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8c76578c499af79def834ea10749661436217b9f2dda04299fb7d0e37ebd9cb7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 114,
+      "sample_id": "mitre:attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 459,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9e9edcda8cf6b604efe336c96b72cb2485803e6b2028a70e71a76576c9ae7efa",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 115,
+      "sample_id": "mitre:attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 725,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8abd848d863328f382e8c7ed954de48563a9d4efd9165163db3ae6a66deb644b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 116,
+      "sample_id": "mitre:attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 406,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "5406f858d66c810f17db04806ac71461486d624a416e87f2baa4f8f275debbf1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 117,
+      "sample_id": "mitre:attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 292,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c72f3948b033488d90e0b59785f1a32efd24da2ac3e85f4ac846c1188cfd32b5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 118,
+      "sample_id": "mitre:attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 361,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "5e1c2ad9532aec2130618941cc3f5874f6885b801c8080ea018c3fda0822c988",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 119,
+      "sample_id": "mitre:attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 409,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "11cf5bfa4f58095e87e57a812b3c0274521fff0531acf43a40798314df0107a1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 120,
+      "sample_id": "mitre:attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 362,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "36a72d54c2737ec2e066deb272dc9369aaf00f77efc58a77a909b439ace0b05f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 121,
+      "sample_id": "mitre:attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 221,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "833f9ecf7311e3473dedeca002e72b67cc4ffce692c5027470bdbf9009644d94",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 122,
+      "sample_id": "mitre:attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 418,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6db044bc77ad8910dfca432a7437b7b93bb972fcf5bfbed987d6b73f755aba77",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 123,
+      "sample_id": "mitre:attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 420,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fdab421524f2d34d5da121c5cfa7fdabd3c08d035b27f3fcd80e1daa92e95048",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 124,
+      "sample_id": "mitre:attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 310,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "01bf75dbe9602644d4406e464b718b6fc5f0359ebbaaab1d6559755a22f3e8a0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 125,
+      "sample_id": "mitre:attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 487,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "7632bfd6a2d5ea7d792dcfdf54355bb0e3b698689a8a6e60005e2106482b8426",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 126,
+      "sample_id": "mitre:attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 289,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c930b18e641923705698a53ddc74c8de81e804d6266ab669228ae51cce383a35",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 127,
+      "sample_id": "mitre:attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 378,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c2f25353bfc701389b769f38a27e58a010eb7ea349dd35cb3cbb1df2531911c6",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--215d9700-5881-48b8-8265-6449dbb7195d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 128,
+      "sample_id": "mitre:attack-pattern--215d9700-5881-48b8-8265-6449dbb7195d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 395,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f2ae750419f03ab4ad93c98af3aadbb993ad64c2ba34ef0c0234a1837984a6fe",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 129,
+      "sample_id": "mitre:attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 297,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fb7b7dcc61803804ca3dc227733e954bfc25950562be57099320495cbaa3b871",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 130,
+      "sample_id": "mitre:attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 418,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8cc15f2f01df9630b9e0842388b0d26bc8e29a85c5a28d10c6c4e930a1d4b5ab",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 131,
+      "sample_id": "mitre:attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 441,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d8d0528b69d89523e53df091d0c1698702f6ee5967fd62450dec63f284a084d3",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 132,
+      "sample_id": "mitre:attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 476,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f2c35cc24916e1222ca0cef4a9378e2ba836e3a3fabc90fe06693ce5f598e4ec",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 133,
+      "sample_id": "mitre:attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 514,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "63572e01a0b548a3da48249d845d561de77189ad7fe22dfd0c3cdb64b212b3e7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 134,
+      "sample_id": "mitre:attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 324,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c2c37b9cc27676ad332020f035553b4904b7c3f6f9372451b035e6928ee99fb9",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 135,
+      "sample_id": "mitre:attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 477,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "08fa8cbc56a20d9f398ac3c806dac3eaa9aa99ec1db1abb01f51b58f81b74a26",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 136,
+      "sample_id": "mitre:attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 232,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ccd7448bd5b637e906d4bc41914317ad7b01f9e802b82e36103fd111e3e400d9",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 137,
+      "sample_id": "mitre:attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 326,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "cb2a600188526d48e11898b922c30e9478caad19c1ba5996a0059e2e7ac179ec",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 138,
+      "sample_id": "mitre:attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 234,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "4894d20bcdba6639eaecb2a1b1e8356471a8915137db6815fe10d38e4be872e5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 139,
+      "sample_id": "mitre:attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 283,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6885d70aa1d367b496abd567da8d310aeb0d2bec36cfe65f3db732222c08fda7",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 140,
+      "sample_id": "mitre:attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 1095,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d1dc17fabccc3c5134108b6fc020d675a78e73e9196adff584afb5cdfb1e6a99",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 141,
+      "sample_id": "mitre:attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 455,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "b592896219c80562bcf1c00ddeeb593c4b4b79655ef6a8655dcb1a996d6c3b86",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 142,
+      "sample_id": "mitre:attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 829,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e688321813fc90cc274e4f8d03ab29c003575a25364516cf3702e4a98bfdd320",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 143,
+      "sample_id": "mitre:attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 429,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "bb8d771ea11171fe716004934e1fd963975391f2d83192e98154a1024c87c7f2",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 144,
+      "sample_id": "mitre:attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 356,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "29951debb7a0d7b62f7d8720170e42ca23c19bfb62bad6d8f120cea5ca356820",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 145,
+      "sample_id": "mitre:attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 715,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "aa0bafa9797d258b96de64390b0ae29fa4c118777e19b6f008dd0c42cd71f29f",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 146,
+      "sample_id": "mitre:attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 250,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "773d3257c2e823e60aac39dde518542cceee448a796eb5125df50b404e9ccbbc",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 147,
+      "sample_id": "mitre:attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 265,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f7883da439da9c223ba29c9be2fc58904f765f6808897bbe9cbd959ef0ff51af",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 148,
+      "sample_id": "mitre:attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 541,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "ff80cda7d6493df60af5c17d21e64589790debef4e02800d92540464a894ff8d",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 149,
+      "sample_id": "mitre:attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 271,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "cdb8826008b94afe6020d235d2c801ce549facd8c90c8557e8c03eccf2fb7f42",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 150,
+      "sample_id": "mitre:attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 361,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9d94450e92173df2f4ec609d4ae4c5434eb9bf246ac11108b964acc445327573",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--356662f7-e315-4759-86c9-6214e2a50ff8",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 151,
+      "sample_id": "mitre:attack-pattern--356662f7-e315-4759-86c9-6214e2a50ff8",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 360,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "6b60120077f73916c1619ba7e93b8e3fe87de44fa56bfd24f3741fc60029ffb9",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 152,
+      "sample_id": "mitre:attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 306,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "95f1ebb0935870e1b176f4d4a6b742d74d2a4bc3dcc732a80cfeca94464c6a05",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 153,
+      "sample_id": "mitre:attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 322,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8113187314de415ba711c25682fab3e4026660c43605fc979275226a21136e2b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 154,
+      "sample_id": "mitre:attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 526,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "c6dd525f459d2a9755011f8cf371b5ef1a16bdd1ace5a85f856a474b0e06a6c4",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3975dbb5-0e1e-4f5b-bae1-cf2ab84b46dc",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 155,
+      "sample_id": "mitre:attack-pattern--3975dbb5-0e1e-4f5b-bae1-cf2ab84b46dc",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 527,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "83dd35e54707b683609579ef25af9193eb4609e96efe850ff6cd1b93947d3d31",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 156,
+      "sample_id": "mitre:attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 671,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "40f53f0c5e19555637d8013f646738728d6b26028bac9d162137c947248abb48",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 157,
+      "sample_id": "mitre:attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 274,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "5226c5e8b2cf889f7ea3820dcbe606e345528282994cd29dd5f843aa95d9a0e4",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 158,
+      "sample_id": "mitre:attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 252,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "8ee07561b5ef3b4e23d30b9cd789ad75db6bd134fd2712271401f231cc54b6bd",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 159,
+      "sample_id": "mitre:attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 586,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "23842e960f9ad138ae520a945cf547753473d77bdac16b757a063a57643aa1a5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 160,
+      "sample_id": "mitre:attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 444,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "edf38edd03ea045f780ee53446ee48a124e5a8aaf37d249201ac2f1f71a268d1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 161,
+      "sample_id": "mitre:attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 458,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "bde9450fb6189aa6ec52d2c788748e7a07e34710e90c40c24462652a6b8360e0",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 162,
+      "sample_id": "mitre:attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 599,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e08e6e02998c45a592b677d0656157fc293005523d0919100fe6f7abcf5b2414",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 163,
+      "sample_id": "mitre:attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 199,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a78bc2cf94acfc6dfd2376316be50ee1ea54364a6282e4bb47e3b579bbe34f1b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 164,
+      "sample_id": "mitre:attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 431,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "efc080d6f88984e5bd36fb995eeefb1bd3259d41a1a441808cb7cd5669c2a54c",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 165,
+      "sample_id": "mitre:attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 711,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "41dd28f27eb7b18ece0ecf34d7e6119f30037dbb3d03c751876fd96ed00eb75d",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 166,
+      "sample_id": "mitre:attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 419,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "95095816fa44c06cba8a21d4f4fa87b4f413564d3943e942dda20b9410bfb5ca",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 167,
+      "sample_id": "mitre:attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 244,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "d53614b81ebb402ea16ebe4a7f5b3233b5d073fc347437589da4e363bdee29d5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 168,
+      "sample_id": "mitre:attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 321,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a5e6f0e6c5c87e655b747ce729f6de99757d18f59957f49ab4e7e4eb46de1a24",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--438c967d-3996-4870-bfc2-3954752a1927",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 169,
+      "sample_id": "mitre:attack-pattern--438c967d-3996-4870-bfc2-3954752a1927",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 542,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "baf018e83bad951af06fec38a766536a1c6f05e0c99a7d6c829e0991d882e014",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 170,
+      "sample_id": "mitre:attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 275,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "917cafbc0c0c545dc8ad9a42ac7bcfeb1ab6df77aa8ac89a803ff7eb31c3cafb",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 171,
+      "sample_id": "mitre:attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 727,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "75be4bc8e6f9d915e4af7982133949b62b8a2305c2ffdbb94f1565a2ceae93d1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 172,
+      "sample_id": "mitre:attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 253,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "13615f379d0f2f9e06ee7f6061b35d8fc02b68d4a3ad37d989995ed7453bf2e6",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 173,
+      "sample_id": "mitre:attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 579,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f9760339aadacab87204e3b166a0137f92dd65985299357405a8957e80d9af64",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 174,
+      "sample_id": "mitre:attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 557,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "67e5012ebec4cf19512052fa7c92615d557ae0c87fb4a6cb903cdf6cac89cc97",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 175,
+      "sample_id": "mitre:attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 374,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "bbc0cfefd447f709b72880bbed44ed26de7e537aebf8c0288a25ef2229749037",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4b46767d-4a61-4f30-995e-c19a75c2e536",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 176,
+      "sample_id": "mitre:attack-pattern--4b46767d-4a61-4f30-995e-c19a75c2e536",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 237,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "af83c435d2b4f5222a4769b0377f6224be6ceffd366796732729dae00807ee15",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 177,
+      "sample_id": "mitre:attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 279,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "a36c641ee1b8058f9dd743fe7fc3ad904bb357b2cd51491e6d648f227f40b7ee",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 178,
+      "sample_id": "mitre:attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 489,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "066db398e15b3f4ac53700982b7c7ff3b041b406cfaae1a471895cde8f75401b",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 179,
+      "sample_id": "mitre:attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 390,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "f65c9faf4ccfa0c3d7eed36685d57a1aa4cc10f5b7bfd363f97da6900c0e63b4",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 180,
+      "sample_id": "mitre:attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 453,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "5a51f72bb6c1e64d6a44332e0c590271adfd58fd069cf1d4f6e429f674bb9545",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 181,
+      "sample_id": "mitre:attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 565,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "fe686d39409de7db80bc61aa8a1bfed271031557ca5b4539432edf9ccf6a0d80",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 182,
+      "sample_id": "mitre:attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 435,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "e28f583a9d41bf398297648d7155900703ccf6b897a2a060244377c8cc576bd5",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 183,
+      "sample_id": "mitre:attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 430,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "914197d55122b8c1455bdeb0ccea960694dcc72308fdb7114f2009e6bcd75cd1",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 184,
+      "sample_id": "mitre:attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 310,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "9057d12361c49b506bab0ec9ab72d483ff5815c3819da8058208aa070ae3c491",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 185,
+      "sample_id": "mitre:attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 303,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    },
+    {
+      "content_hash": "7bed5e829ca75a5b4144f92b317e782e15665c5cbef3794bc69d527574660c76",
+      "license": "MITRE-ATTACK-terms",
+      "provenance": {
+        "document_id": "attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+        "raw_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+        "synthetic": false,
+        "transformation": "extract fields from STIX; no inferred mapping"
+      },
+      "row": 186,
+      "sample_id": "mitre:attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+      "source_id": "mitre_attack",
+      "source_version": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "token_count": 557,
+      "token_method": "local_qwen_chat_template",
+      "verification_status": "source_grounded"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": {
+    "frozen_partitions": "data/manifests/frozen_pilot_partitions.json",
+    "frozen_sample_ids": "data/manifests/frozen_pilot_sample_ids.json",
+    "inputs": [
+      {
+        "format": "stix",
+        "limit": 240,
+        "path": "data/raw/enterprise-attack-17.1.json",
+        "reporting": true,
+        "source_id": "mitre_attack"
+      }
+    ],
+    "length_policy": "reject_whole_sample",
+    "max_tokens": 2048,
+    "min_tokens": 1,
+    "mode": "production",
+    "near_duplicate_threshold": 0.85,
+    "registry": "configs/sources.yaml",
+    "seed": 42,
+    "split_ratios": {
+      "calibration": 0.4,
+      "evaluation": 0.1,
+      "train": 0.4,
+      "validation": 0.1
+    },
+    "targets": {
+      "general": 64,
+      "security_reasoning": 128,
+      "soc": 192,
+      "structured": 32,
+      "tool_workflow": 96
+    }
+  },
+  "config_sha256": "46bfe70fa0d16130ca781ee93ef5fdd05dc99c426fefee437a3f39e11deb2f76",
+  "implementation_sha256": "83b86600bd1d42220c5ebb3f88dd61302588881f4edfdc9e972de5cad1338b38",
+  "inputs": [
+    {
+      "path": "data/raw/enterprise-attack-17.1.json",
+      "sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+      "source_id": "mitre_attack"
+    }
+  ],
+  "model": "qwen3-30b-a3b",
+  "model_files": {
+    "config.json": "2850ddb3bf7aecad20b611e2d44f3077fc8193f4827c93beddd4c02ad63c2297",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "tokenizer_source.json": "1b229ffe7aa05070719529a0cad38ca2d4547a5846475d513dbf9006cd8b020c",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "outputs": {
+    "calibration/data.jsonl": "74c64d79637c5b83cce5cd054b3c213f97f8e90fa1b2f7f94a9c3050af42ca29",
+    "calibration/smoke.jsonl": "33c1dbc1fa825441fec20d237e234fb0819b93fcd8a8c1243add6731e375eb67",
+    "canonical.jsonl": "beb2320a21446a68eaa2e92dc36bce2185b77780106f10d4c560ef20927bbb81",
+    "evaluation/data.jsonl": "ba5d5a20574fb7221428596550e30cbf36b4b017a4ac6e4e17303493f2bf1960",
+    "expert_training/data.jsonl": "9db3761af6dd0b8318de789bd5e2ca81f5bf1dfe9b1ded8e9a7c7d0684d1b7fc",
+    "finetuning/train.jsonl": "1cd2a1c37c93601f4a57285c946974aa86e6b5be3bed46925f2ed62b0f564930",
+    "finetuning/valid.jsonl": "a58cfc77314cf7c18bdeec885995f894bd2d3a825bf15898ee9b0f9ab06c6c38"
+  },
+  "pipeline_version": "0.1.0",
+  "sources": [
+    {
+      "approved": true,
+      "category": "security_reasoning",
+      "citation": "https://github.com/mitre-attack/attack-stix-data",
+      "dataset_name": "Enterprise ATT&CK 17.1",
+      "download_method": "pinned HTTPS with SHA256",
+      "download_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/c2494b29dd268c46a5d0ea0990553e4327cd2253/enterprise-attack/enterprise-attack-17.1.json",
+      "format": "STIX 2.1 JSON",
+      "intended_use": [
+        "calibration",
+        "train",
+        "validation",
+        "evaluation"
+      ],
+      "license": "MITRE-ATTACK-terms",
+      "limitations": [
+        "Field extraction and documented detection reports are source-grounded, not validated incident reasoning.",
+        "Portable pilot scopes 240 active techniques; selection is not representative.",
+        "Sub-technique families and near duplicates grouped; semantic leakage beyond lexical similarity remains possible."
+      ],
+      "official_url": "https://github.com/mitre-attack/attack-stix-data",
+      "publisher": "MITRE",
+      "restrictions": "Preserve MITRE copyright and complete license with every copy; see docs/licenses/MITRE_LICENSE.txt.",
+      "revision": "c2494b29dd268c46a5d0ea0990553e4327cd2253:enterprise-17.1",
+      "sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+      "source_id": "mitre_attack",
+      "trust_level": "official"
+    }
+  ],
+  "uv_lock_sha256": "0c4c9016b0e9346e7f476b2ea601bdd9e23abe8973fd655246a831a4e44ebe92"
+}

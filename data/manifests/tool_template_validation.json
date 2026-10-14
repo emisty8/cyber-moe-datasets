@@ -1,0 +1,137 @@
+{
+  "chat_template_sha256": "41d5929bf73796beb66809ac700b2cf3ff81694f933e5c14d52b7fd6963c947d",
+  "files": {
+    "config.json": "2850ddb3bf7aecad20b611e2d44f3077fc8193f4827c93beddd4c02ad63c2297",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "mac_installed_tokenizer_match": "pending",
+  "max_tokens": 2048,
+  "mlx_executed": false,
+  "model_weights_loaded": false,
+  "over_limit": 0,
+  "passed": true,
+  "records": [
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:0",
+      "token_count": 29,
+      "token_ids_sha256": "948f50ecd6cc7d0f77aaeeeada7c4012714a3cb77a4c5958754b6948a14e6636"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:1",
+      "token_count": 38,
+      "token_ids_sha256": "6c48d433d5173e8b6d364556bedce7dad03e6ed5d38267b5b67396b06d920e4f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:2",
+      "token_count": 30,
+      "token_ids_sha256": "ccb6a0a89b8f019253aacdd197078aaf1c80190048ecc448601e120655729743"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:3",
+      "token_count": 27,
+      "token_ids_sha256": "6f9e53a7dbfa2396bd2571d60eb07815119f72aca32ee8d0c9e2dfbca59c220e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:4",
+      "token_count": 28,
+      "token_ids_sha256": "4219c0ae6431a019970719cebd7aa243a71a6290c4b14c63774397ec0894f41b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:5",
+      "token_count": 26,
+      "token_ids_sha256": "7a2230cf4b84dc3c1f311e72fa859738705a27456ec56b6fdc00624d4557137e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:6",
+      "token_count": 25,
+      "token_ids_sha256": "0c8c0f1e0a701168480f0652ad3fc13e9c5c91f26830b86f82f302284303e1cb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:7",
+      "token_count": 26,
+      "token_ids_sha256": "ae9ad470e7b05c3eaa5e64bc9e854d0cabba7282e1f158df87413025cbe28466"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:8",
+      "token_count": 27,
+      "token_ids_sha256": "c473ec9fc57969ba41af37e2788b7f2e9b27562d1b46f0b573fbb9c0f44e24da"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:9",
+      "token_count": 24,
+      "token_ids_sha256": "acda2667ce984ea8c5eeca2c34a49c01976146b171d5df312d21ab060f31b212"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:10",
+      "token_count": 28,
+      "token_ids_sha256": "2aeae41639a8bef043d3c86c848b993ca389bdbe6e63981feb0ee01ee9dd454f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:11",
+      "token_count": 35,
+      "token_ids_sha256": "4dcaec4f76de4fc0eadca11a3e440af6f3fba0baa534fbcf955a0c6687a0a39f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:12",
+      "token_count": 33,
+      "token_ids_sha256": "ee0ea5ea6ab54885dd9c8ca7033f0d3fd531a51c75be48eecad7ec8d60de48cd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:13",
+      "token_count": 33,
+      "token_ids_sha256": "5a00911a4cea54d563ee88b735f0f0eba80c15390ba776fd190a9738ce36b492"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:14",
+      "token_count": 25,
+      "token_ids_sha256": "eedfc16043b0219abb96a3fa7adc136dc6b7372e71e048f5c99a99c101766cf4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic:15",
+      "token_count": 22,
+      "token_ids_sha256": "01f630823d2b79121f3697daac1181f45fc95ce55a2b1ef0136d1305d30d6273"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic-tool:0",
+      "token_count": 217,
+      "token_ids_sha256": "f560692561c0e0db2b97413f815429f895ac4e133ce2b266b85473797514d350"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic-tool:1",
+      "token_count": 217,
+      "token_ids_sha256": "890d9c1273c793e839718418b3a900a2e92f98296362b11a295c715bb02ada11"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic-tool:2",
+      "token_count": 217,
+      "token_ids_sha256": "68562688703771e2907d71440a113e6f360eb8618b0efe9f64ee40705be9d5b2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "synthetic-tool:3",
+      "token_count": 217,
+      "token_ids_sha256": "8fcc852cd2a2ac6ae2dbf71b063992830f0d45b89bc6e55b4bccb8673c86360c"
+    }
+  ],
+  "records_checked": 20
+}

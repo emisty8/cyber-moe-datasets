@@ -1,0 +1,103 @@
+{
+  "excluded": [
+    "raw sources",
+    "quarantine",
+    "length rejections",
+    "model weights",
+    "tokenizer payloads",
+    "saliency"
+  ],
+  "files": {
+    "MITRE_LICENSE.txt": {
+      "bytes": 1354,
+      "sha256": "738144f7fb054722a4ef9d3367c51710341dc12fc574c6ac3a41daaaecd8bf5e"
+    },
+    "calibration/data.jsonl": {
+      "bytes": 250889,
+      "sha256": "74c64d79637c5b83cce5cd054b3c213f97f8e90fa1b2f7f94a9c3050af42ca29"
+    },
+    "calibration/data.metadata.json": {
+      "bytes": 128250,
+      "sha256": "067c36af3ad1f03ba2462bf04a32eea7d8ca4e2b94450e9079b6e8c3614b74ff"
+    },
+    "calibration/smoke.jsonl": {
+      "bytes": 7498,
+      "sha256": "33c1dbc1fa825441fec20d237e234fb0819b93fcd8a8c1243add6731e375eb67"
+    },
+    "calibration/smoke.metadata.json": {
+      "bytes": 3903,
+      "sha256": "aae7223c28f823eaf2dba5ef169d3a60fec2c4cb95b702d75eb4be68c6b871d6"
+    },
+    "canonical.jsonl": {
+      "bytes": 1625185,
+      "sha256": "beb2320a21446a68eaa2e92dc36bce2185b77780106f10d4c560ef20927bbb81"
+    },
+    "evaluation/data.jsonl": {
+      "bytes": 90773,
+      "sha256": "ba5d5a20574fb7221428596550e30cbf36b4b017a4ac6e4e17303493f2bf1960"
+    },
+    "evaluation/data.metadata.json": {
+      "bytes": 42191,
+      "sha256": "830302efc7e311896e78a062280c1b97557740d7583dea635c873c2a59ff6d40"
+    },
+    "expert_training/data.jsonl": {
+      "bytes": 413076,
+      "sha256": "9db3761af6dd0b8318de789bd5e2ca81f5bf1dfe9b1ded8e9a7c7d0684d1b7fc"
+    },
+    "expert_training/data.metadata.json": {
+      "bytes": 183631,
+      "sha256": "c13480142a0655d9124beaee2d3a12d525b0921d6689e4579cd44c5a9303f92e"
+    },
+    "finetuning/train.jsonl": {
+      "bytes": 374554,
+      "sha256": "1cd2a1c37c93601f4a57285c946974aa86e6b5be3bed46925f2ed62b0f564930"
+    },
+    "finetuning/train.metadata.json": {
+      "bytes": 183621,
+      "sha256": "c9c1a0206dc62712d8db926921c3b98a78c6e2369fdd8e69d0dbc7c04178bdd4"
+    },
+    "finetuning/valid.jsonl": {
+      "bytes": 40411,
+      "sha256": "a58cfc77314cf7c18bdeec885995f894bd2d3a825bf15898ee9b0f9ab06c6c38"
+    },
+    "finetuning/valid.metadata.json": {
+      "bytes": 20666,
+      "sha256": "799d14f2590af2df9f6c525a8c22eb7c23bf2c2e7907b6911dcbf40dbf8e1899"
+    },
+    "leakage_report.json": {
+      "bytes": 87,
+      "sha256": "4d29ef3e9c7fa8a68e951773d0a48df921ff4054be594983606765432353c6e8"
+    },
+    "quality_report.json": {
+      "bytes": 2816,
+      "sha256": "0923349c223887778ccbc933092cd8330d42d040f7638958f5c9ec8f20b1e31b"
+    },
+    "source_manifest.json": {
+      "bytes": 4011,
+      "sha256": "f4e020b1ff4ac36e695a8a6f4d7aa7c3d7221151a7b7484c36dda66c05cff47e"
+    },
+    "tokenizer_validation.json": {
+      "bytes": 106445,
+      "sha256": "9b23da30351f49354cfc89a963a55ff894212be20754123f782e61c65c7ff9e8"
+    }
+  },
+  "readiness": "windows_tokenizer_validated; mac_pending",
+  "release": "mitre-pilot-v0.2",
+  "validation": {
+    "canonical_samples": 432,
+    "exports": {
+      "calibration/data.jsonl": 132,
+      "calibration/smoke.jsonl": 4,
+      "evaluation/data.jsonl": 43,
+      "expert_training/data.jsonl": 187,
+      "finetuning/train.jsonl": 187,
+      "finetuning/valid.jsonl": 21
+    },
+    "leakage": {
+      "benchmark_reference_check": "unavailable",
+      "passed": true,
+      "violations": []
+    },
+    "passed": true
+  }
+}

@@ -1,0 +1,2622 @@
+{
+  "chat_template_sha256": "41d5929bf73796beb66809ac700b2cf3ff81694f933e5c14d52b7fd6963c947d",
+  "files": {
+    "config.json": "2850ddb3bf7aecad20b611e2d44f3077fc8193f4827c93beddd4c02ad63c2297",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "mac_installed_tokenizer_match": "pending",
+  "max_tokens": 2048,
+  "mlx_executed": false,
+  "model_weights_loaded": false,
+  "over_limit": 0,
+  "passed": true,
+  "records": [
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+      "token_count": 320,
+      "token_ids_sha256": "d8c73ca25383c4fd5052ec9351baa45d5a895ef67d2f1d49766ba3b6fb5663f6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+      "token_count": 1176,
+      "token_ids_sha256": "d453daa084f3a46d507b78b99be353e571fe53818284ce07910c3d0e74a6785f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+      "token_count": 228,
+      "token_ids_sha256": "9b8ed1af74c52d39e3835961bfa5084059c1f5f809349b2073a07bf8f4a1464a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+      "token_count": 402,
+      "token_ids_sha256": "6d951dd4368bc7c4315b0e29c1d1f2d98414cc3b81eb7836a075caec73f21e93"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b",
+      "token_count": 502,
+      "token_ids_sha256": "56fb7b83773fac32fb54558634a0bebc8995a87a93dc0f2a124a2eb7a09e1e4e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+      "token_count": 306,
+      "token_ids_sha256": "51e8985663dd238105821c633ceeb60ba6deb1e1cf34568dfbe9a17b8dadadbb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+      "token_count": 302,
+      "token_ids_sha256": "a2b05893a5fab6fdc635cd30296b2dd084590c7257b77758e14de7f63992350f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "token_count": 310,
+      "token_ids_sha256": "af0c9433ea29fceae8c7f8511cb689db02557d6589a3dd033aead354e4294527"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d",
+      "token_count": 260,
+      "token_ids_sha256": "7bbc7d06d6b98b6d7948d25ba40da2ac71cc370cd3e21f4882abdf7237ef8961"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+      "token_count": 592,
+      "token_ids_sha256": "b6878adab670e37177c2c8cb082bb1776ad4a05634b748cba9863002b3257425"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+      "token_count": 496,
+      "token_ids_sha256": "7722ecde4c921cd8800ef248b64af0fbfaa332b6b8e38d133e84cf2966fd81fb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+      "token_count": 372,
+      "token_ids_sha256": "5bc438d53ad52e5211b9891db6ac543177922da297c8d926d634aa9923610fe7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0470e792-32f8-46b0-a351-652bc35e9336",
+      "token_count": 332,
+      "token_ids_sha256": "2a5ca8f7f2263d0868f106aace0d3056a1a3e52a7670ab587b63e46654b5f9d1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+      "token_count": 296,
+      "token_ids_sha256": "4db53d1205bb40ee836f555283aba29efc865afcda8821c8366fa5dcd77c7013"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+      "token_count": 502,
+      "token_ids_sha256": "37eb4b1eb984bfb066e7432464279a17259b1cb49a6203467a5097eb5cab5e30"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+      "token_count": 388,
+      "token_ids_sha256": "fcb89648104d053c87ea7941218eb70759279d48e6fe42e3a0b98b7c20985320"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+      "token_count": 334,
+      "token_ids_sha256": "65deba19df360536f215201bee66e2ca2cc70e1e070e8fd4856ae5b031756cd6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+      "token_count": 416,
+      "token_ids_sha256": "d843a4769bb5eb7f128777bde23aa41e832cca61940bac12b9c8c67a07a7c4c2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+      "token_count": 452,
+      "token_ids_sha256": "5b893aa805ce538325a7b8768fc168127d9d688534322df9455ae825736ece37"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119",
+      "token_count": 266,
+      "token_ids_sha256": "5787c637333e4437dd1e24cfce9c020eb0b8d530027c7dc3fa77f7fa66a91179"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58",
+      "token_count": 230,
+      "token_ids_sha256": "8ce9541a9a3abd60e62873f1fabdeac03fe2a9654406274cbda16621bc256500"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+      "token_count": 1630,
+      "token_ids_sha256": "bd5e8c85eb3558494f1dcc4c41f2f9b04285cab9834a31e7de19ff11f7f6b180"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+      "token_count": 434,
+      "token_ids_sha256": "61875a32afe7d26698f5fc1cb29a27546c5e9a9b3972f946749369bd7fc6dab1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+      "token_count": 230,
+      "token_ids_sha256": "8ab18700ee85e86461637c517d251841334852affa070a20869ab440314ca7af"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+      "token_count": 380,
+      "token_ids_sha256": "c2679bc1138801000d2a5901eea83e276df79f85e16704c1de37377ec9814764"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3",
+      "token_count": 486,
+      "token_ids_sha256": "fd5c31ed293edd870f11f2468858729448d6d05d3b2a10b8fe9cde5894820984"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+      "token_count": 486,
+      "token_ids_sha256": "8ca6815d7b0e4dee987a6c634c3c884c4dc224db37ae7ce83994a55e737cf656"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
+      "token_count": 536,
+      "token_ids_sha256": "ad7211b3d0b627206b6f3ebcf397b50ee785a094e695a4ba552d6fcfb656f97c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
+      "token_count": 356,
+      "token_ids_sha256": "59c968f80ca49726ad85673fa60ac4ce685143deda0c8290ce93838ca80b578b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e",
+      "token_count": 298,
+      "token_ids_sha256": "50a280f650da03ccf0f048ec9da68724356c02f497dd1a034ee32cff6c5a395e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff",
+      "token_count": 430,
+      "token_ids_sha256": "b09d2d7f65a1a14b4a8f6b1769cdfa7e8d5ef247f85e5f8b1aa2a3173963ea72"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3",
+      "token_count": 288,
+      "token_ids_sha256": "9969b8a10dbb27f86108fe7a0da214d1646aa727afb2f54ce3edefb09db159e2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0df05477-c572-4ed6-88a9-47c581f548f7",
+      "token_count": 388,
+      "token_ids_sha256": "ce6df63bf759eb22b4acf0f478aad947b208e21b3df278940a58a5dad0844ee6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+      "token_count": 278,
+      "token_ids_sha256": "c6d0f42edff40a7fc3dfd5c877e76609356103136baea5b3c29aee230af776cf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3",
+      "token_count": 496,
+      "token_ids_sha256": "4dc8d4ed2fff8dcf3680260dbe5f76c1adc24cc96b3e84cdc7fe6d14a8b827e4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+      "token_count": 740,
+      "token_ids_sha256": "a64b86276b1bcc661543a52de7e2478ff4dbf8c990464566f72e8b52948ae3ea"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
+      "token_count": 338,
+      "token_ids_sha256": "da4cab4774adcc0b16d45166872d0bd4211101196f72257ba896b0a4f72c4c4f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--106c0cf6-bf73-4601-9aa8-0945c2715ec5",
+      "token_count": 588,
+      "token_ids_sha256": "98ff3372165f7f0cf871da74587de1aa4567a2f1975cf61ddf0f41591ec9ee45"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+      "token_count": 380,
+      "token_ids_sha256": "3c92878bb1ed5e1765620bd27392f6782ecbfdaa544adce1753233d0b28bfecb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--10ff21b9-5a01-4268-a1b5-3b55015f1847",
+      "token_count": 286,
+      "token_ids_sha256": "e22d0cda7ae53926ded83e75c4be780b798865ba1c64de353c6bfbd6473480ab"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
+      "token_count": 218,
+      "token_ids_sha256": "6ed6a5c473350e2f4158d5dd69ec3b80fae1a90c97dec41dc30e7c3870ac496f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1126cab1-c700-412f-a510-61f4937bb096",
+      "token_count": 256,
+      "token_ids_sha256": "f126cc2a7ef8eb32342f4c28646038881bb3087ab7813ce43a2971fa20fda09c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
+      "token_count": 652,
+      "token_ids_sha256": "ecab75997ea28437a4f47a33227bff91ffc410dad1680885fd4c609b5b17a6a2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--11f29a39-0942-4d62-92b6-fe236cf3066e",
+      "token_count": 208,
+      "token_ids_sha256": "5e8015a57daf645b544d18719cd0152e1dd12e81cdcecd84323e27a6089933c8"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+      "token_count": 846,
+      "token_ids_sha256": "bd014a87ffafcb87769db2aab9300f0f61671db3ab1c46c793a4646c7f711bbf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
+      "token_count": 298,
+      "token_ids_sha256": "f68fca4c546b8e194eb19276d0e8090a2176fa8f80b7d9d04369b520efb7485d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+      "token_count": 356,
+      "token_ids_sha256": "5a6d9cc1c30414111378141c74a272fc5881c92f95d2aa3c29e11aea7bb168db"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
+      "token_count": 204,
+      "token_ids_sha256": "8850e75fe5d26a91f9b1370b0bd562a8357231bda630e6b1b3df28be82ad98ad"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+      "token_count": 502,
+      "token_ids_sha256": "2bd68f28fe28bb692a50aa0dabf38f655e7b7b66198e882fc3a95d1d8582c2dc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+      "token_count": 564,
+      "token_ids_sha256": "90e9b2397af1dbf36796b1244e29762e12a02785e793bcf09360f07573361216"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+      "token_count": 1116,
+      "token_ids_sha256": "37a9055af4165af2d7aebae4e7c7ebceb6685ebb0e0da64479af6d4536c87bd3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+      "token_count": 418,
+      "token_ids_sha256": "30a93a2b720ee4c51f6adb967f0d73ecafeb580554cb56f6d7b6568427d17dbe"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--16ab6452-c3c1-497c-a47d-206018ca1ada",
+      "token_count": 430,
+      "token_ids_sha256": "c1894d76ab2116ee5f1355cb8332c200826716eeef8706e8485d55299df3fed3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+      "token_count": 294,
+      "token_ids_sha256": "b55074d373f7087b5da5bae094b3efeb243cd3fb9f2fe654a63bcab8529e5eb9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+      "token_count": 394,
+      "token_ids_sha256": "ee939fe9a3ff4a3f39f96a6bb6644507599818aec73d22cd5cef7fc63cfbcdde"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+      "token_count": 778,
+      "token_ids_sha256": "a626f4b1bd42a2de093e2149e47d8ac39c776a67d986e3abd6faf90a05bcfe9c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--18cffc21-3260-437e-80e4-4ab8bf2ba5e9",
+      "token_count": 516,
+      "token_ids_sha256": "c066a223b1f205e66d629d681eb50c7c7bb460116d016c36152e710c6d14b329"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--191cc6af-1bb2-4344-ab5f-28e496638720",
+      "token_count": 222,
+      "token_ids_sha256": "cabd56872a5960a40cd32923f38a512e91bfac43b88a06d1042701d714b3be47"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
+      "token_count": 508,
+      "token_ids_sha256": "12c20177d491c49e8ead355c769acbc6c4b7ef61e29d981da5b00312511db5b9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+      "token_count": 212,
+      "token_ids_sha256": "90d116edf98e5e984b0bb4c13363d554efb6e5eca4f78dbed480c9bef4ae390d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+      "token_count": 330,
+      "token_ids_sha256": "17eaa48fe201721f6303d2d16ae40f2ebd21a331dcbb81467bb433b1f93a37e0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
+      "token_count": 360,
+      "token_ids_sha256": "0294d53f3a27882a98b132c5d8eb8d6d5d2a5eb873f5b953ce355fd3ba6eac94"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3",
+      "token_count": 250,
+      "token_ids_sha256": "a207418bd68e738d9052821bb36d544d5c3fc558a503658a460d43723064e477"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+      "token_count": 198,
+      "token_ids_sha256": "17e134b931eb888093b734f1fadc35f5b966d20474e420b3a16128b3ef137be3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+      "token_count": 522,
+      "token_ids_sha256": "f8196bdef02e78bfb9aa02ef7c2446dbe1db54e5c8424f8092852159d48834a7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
+      "token_count": 252,
+      "token_ids_sha256": "a0c8d5bd3f438e3c51295cbb97318709897f44faf3ccbc0668dde909652d0044"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+      "token_count": 346,
+      "token_ids_sha256": "8a167f9ba6ca305a1d4a4db696831cb8f88c58763436faf269a5b350cfedb0b5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+      "token_count": 370,
+      "token_ids_sha256": "4a7385738c07f6ab88049153ab20f3e3b05860f4a13f4c137e788ce2d16d26de"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+      "token_count": 638,
+      "token_ids_sha256": "13822c7cb125f3cf5ce09bf2cf999f7bf45817ec29af49151158a044953b4c69"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+      "token_count": 666,
+      "token_ids_sha256": "735b0e74dfe71256b3654b863205e621dd639f8aaad60fb6db9581d553b57dd2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+      "token_count": 432,
+      "token_ids_sha256": "32effd8b686950c4d82c77425d7a559561fbe6b59ff8a113d54c7f4d0f82e318"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1cfcb312-b8d7-47a4-b560-4b16cc677292",
+      "token_count": 204,
+      "token_ids_sha256": "baafc4ba055cbc0b6d102d810ccab3534b119127263a591a7f9db57bcb105ada"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
+      "token_count": 334,
+      "token_ids_sha256": "40fae66536d8d1aeae489569ece48dab7ec14d1ed7a6159fc1f7487132c1090a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+      "token_count": 358,
+      "token_ids_sha256": "106b40946a44d0d8e16c2458a4802631c360ceb7dfc827554a0a0a2dec4845eb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+      "token_count": 282,
+      "token_ids_sha256": "0e4e18b9da5156e594fd0fdf4d7b418022f9c98c0590c0dcf2e65deee54d6a89"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+      "token_count": 758,
+      "token_ids_sha256": "75829e72b22578091542537cecdd9b431c497d594901f9ccc2338b9b01b18264"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+      "token_count": 326,
+      "token_ids_sha256": "b0696b61cfbe1f0f8b710d4439e097188ad39c6d1fe3fb9ce1e66f99bf8e34ba"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1f9012ef-1e10-4e48-915e-e03563435fe8",
+      "token_count": 250,
+      "token_ids_sha256": "99466e7a2bed13bd1d477373e7a9b316f6aa0065b495b7aff77ef43ef251700b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--1f9c2bae-b441-4f66-a8af-b65946ee72f2",
+      "token_count": 624,
+      "token_ids_sha256": "b7735d826cab48bb99e86dff2430b23be1e345fdf487b7268ad9227448b27d4f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
+      "token_count": 624,
+      "token_ids_sha256": "a4c4f217535aafef232edd7a79a64ed06c142bb0c55a3beb0f6fd35686f635a4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+      "token_count": 342,
+      "token_ids_sha256": "a8d8b68cc60436500fa8306b2708f277f636f01a966fdebd0b7e81eea37ff075"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+      "token_count": 494,
+      "token_ids_sha256": "edc6d2dc3bbd8987147f2c466612a0ff056fb70d83bbfd01b20f58d0ff751f8d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+      "token_count": 382,
+      "token_ids_sha256": "26897b2499b1666a1c973ba837d80dbddd0505b06be8caab30f4b6b69bfce092"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--22905430-4901-4c2a-84f6-98243cb173f8",
+      "token_count": 380,
+      "token_ids_sha256": "e4839f50716ee4954576a8e8be2d9e6e4d40950da52e6af30266d69a39a85f27"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
+      "token_count": 382,
+      "token_ids_sha256": "a0b22c12749e2f27009ae37864d9f31327e33e44076c9a80ac3ca29995120c56"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+      "token_count": 414,
+      "token_ids_sha256": "2996a4c118c18fb49672e148c10f40c89775f6feff802548601a1f90e1ef44d2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+      "token_count": 336,
+      "token_ids_sha256": "57965f394cd4aea90d7e6d43f15a6f6be7c4266eff32d83369e92faf718fc118"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+      "token_count": 340,
+      "token_ids_sha256": "edfef9656bf2b3f97ab4d68214db4540172ce7c1f4b5a7a22fa9f8be5b13a9da"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--24769ab5-14bd-4f4e-a752-cfb185da53ee",
+      "token_count": 588,
+      "token_ids_sha256": "3b852af8fd437ebc2d1179e0fc5d8ae1fe1fd00f2012e7d3ff1cccfc8c445e57"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+      "token_count": 366,
+      "token_ids_sha256": "a79b3c0146d613adf8bede440c6ea890492c37d0fea01dd50f220550be5b6d03"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+      "token_count": 596,
+      "token_ids_sha256": "7a7fd64bf96d2fa0c3af20cceb5131b57222092de9ec067d7ec0b45598a99852"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+      "token_count": 332,
+      "token_ids_sha256": "c831993fc6eaa7f0447567fef2da6a51663a121decc4fd8f25c7e3d648bf6d79"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--28170e17-8384-415c-8486-2e6b294cb803",
+      "token_count": 614,
+      "token_ids_sha256": "6761711dcf00587f6b06f645598f928281fb67afaa8d0c0b87543a0a82106423"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--28abec6c-4443-4b03-8206-07f2e264a6b4",
+      "token_count": 588,
+      "token_ids_sha256": "ae5fa3e0abc61a2f19d03cf80eaf0d82d0a2a838a90b3ff4865080c0e3a77b2d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+      "token_count": 1164,
+      "token_ids_sha256": "7fb7ee8ae0175d54a3b0763624d280de9d388bbebd5d34a07957214cfdb9e252"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6",
+      "token_count": 288,
+      "token_ids_sha256": "10ad68f574656ed9ee27fcf711645a443c1f8b276210588eb1d098c491dfba96"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
+      "token_count": 406,
+      "token_ids_sha256": "707af2ba3ba070d31bbc8226120f1a0a90ff7cb34c11a81eee418181ef1af3c5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
+      "token_count": 428,
+      "token_ids_sha256": "1a886be1876ef4dfa2d4717a066fb439f396eed73602554fb6be30fc854dbe3c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+      "token_count": 478,
+      "token_ids_sha256": "cad41be9d4689974b2c773b9b268ab1fcbdd56fab3400b8a8fe400e78361cc2e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2b5aa86b-a0df-4382-848d-30abea443327",
+      "token_count": 556,
+      "token_ids_sha256": "bb8d9e5a339a03577563a4da7a763b3962489127220c2baa7b6e45c11f928132"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+      "token_count": 544,
+      "token_ids_sha256": "ee572674d2a0b668077da9cd556b2db59afe9d919253cd587ed3c904e7abd3d2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+      "token_count": 224,
+      "token_ids_sha256": "eef108dab46eaf7754d72a5af6830ff110fde3e496b6503fe9bc7457459fae52"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2bee5ffb-7a7a-4119-b1f2-158151b19ac0",
+      "token_count": 294,
+      "token_ids_sha256": "220f7cc1aa6e6383443ba06d226ff34ad236cc3dc7b3e9736c701d39d8cde811"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+      "token_count": 712,
+      "token_ids_sha256": "cec7efcd5a65ddd907b0bb1453cbb02aa2336d893c384cbd389534391703e3e5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+      "token_count": 288,
+      "token_ids_sha256": "f98b78ac46dbd6da27f305d42f8bf915a94e24116186a85be270e1f67941d979"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+      "token_count": 372,
+      "token_ids_sha256": "ac7e90811276373dd68328f1d4f709eb88ab8ddb2b1cdef95ec45bb5c005c812"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+      "token_count": 566,
+      "token_ids_sha256": "9f3973f7abe37e50bebbe569942fd75416ff22c546a358c7bd76970669e0224e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
+      "token_count": 224,
+      "token_ids_sha256": "bef379a018d1843ef1e41cd207556844c929d6ce5781c618d1e046ced5803da6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+      "token_count": 512,
+      "token_ids_sha256": "aa650a7da154092ffdeeec8e3b644f7e2f61fb50b2175027ec5e57b0cf711f97"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+      "token_count": 644,
+      "token_ids_sha256": "a9c1211a55016f6a8c01cd6d659de910fc0985a10ed48118b137397d3aa01de2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
+      "token_count": 456,
+      "token_ids_sha256": "b278a40a503687812cc5f873a1a757c03c0a6c98aa574e3bd53d3e290912b9db"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+      "token_count": 362,
+      "token_ids_sha256": "1721c94e8bbb84b97d305fc6805fd1dc35fb1e43d3437fce93c5c48ee9e275b4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+      "token_count": 566,
+      "token_ids_sha256": "ffcf86ed61765b851f7e0784a9e66d4c03dd3f076196d624480e0bf8f6a070d5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
+      "token_count": 232,
+      "token_ids_sha256": "dd1ec1bf4a6feb3c76c68e3892a97e823eb3d79f68ad3fb19ae39bb571af85db"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3120b9fa-23b8-4500-ae73-09494f607b7d",
+      "token_count": 368,
+      "token_ids_sha256": "dc869deb488f0b9516617881bd32fdf8e42981828b2339437c58ef5e12f78216"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+      "token_count": 334,
+      "token_ids_sha256": "e597df135981e4c72240ac5494097112e9952cea10980d830d6ff4a4a105b14f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+      "token_count": 252,
+      "token_ids_sha256": "1e7e69cbcf13a373a72b492f857ecfa17dca8cfdb0c9da88f4c76014b8ffc897"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--31a0a2ac-c67c-4a7e-b9ed-6a96477d4e8e",
+      "token_count": 792,
+      "token_ids_sha256": "86a9e1f02a1f20ce7176531bf712ed06bdb819f23e696d6a5985d726ec652aee"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+      "token_count": 428,
+      "token_ids_sha256": "930489c8f695e8dad967e5b112ec586478fe3391181b47b655490e8bbfcc0e4d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+      "token_count": 462,
+      "token_ids_sha256": "a5cd213f92e16424780635f8dd9eee5218723387b3c782fbb8ca61452448e47d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
+      "token_count": 498,
+      "token_ids_sha256": "d1400b473ae69e375b353c36018c278718e358d7b07b2a3dd9a4502faac765c5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+      "token_count": 182,
+      "token_ids_sha256": "cc4e20e73b46a17000fe87376b5da3c2c4d502eba9897b7231c30394dc67e970"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
+      "token_count": 288,
+      "token_ids_sha256": "684f3e0a9bc6866d0da44348575c8f125cd5b5eeab497ea3a22577114cde1883"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--32ad5c86-2bcf-47d8-8fdc-d7f3d79a7490",
+      "token_count": 228,
+      "token_ids_sha256": "11407eaf2ea9ce9ed8b766067e3591db42ced6d0c75d9b67536bde5148c9a5ab"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+      "token_count": 294,
+      "token_ids_sha256": "e14c70e2e6e6cec73c020d278890d310d7f1566a8a8b3b71d32b1117ea1f43ae"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+      "token_count": 514,
+      "token_ids_sha256": "33b2beb7e787c9b14d75600a66bb5590c27d9af013b79ac756ed9ff6774fe8b5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+      "token_count": 446,
+      "token_ids_sha256": "3d6f4e3888565f0e62c45b5bd596970fc693d0e84ae4908c7475813b0df61f9c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+      "token_count": 454,
+      "token_ids_sha256": "1799e10b02723a424941fd4b5b296190bf68eda00f3e42efdd64c8384a75e5b9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+      "token_count": 440,
+      "token_ids_sha256": "7ed17e7908ccd3d52a1582f881dbabc52a6da013a4415d0b440d144c5a1a8394"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+      "token_count": 392,
+      "token_ids_sha256": "7641d6b873e98bd17dfc92e8c37688057834735faff2ee3f3e5484189df17fe0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+      "token_count": 240,
+      "token_ids_sha256": "f3eb711da2022d7a243420dbf25a96668194e34adfab6369811f2634076e3b72"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+      "token_count": 684,
+      "token_ids_sha256": "1f95558a2881204a6d124616f10272be86fd53d60f570097d9c6c7db72518f30"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+      "token_count": 326,
+      "token_ids_sha256": "e470de87396f1f1398cdbe27d9ccc4f4f22c06930bc6fd8b8df5d8505259bb2b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+      "token_count": 560,
+      "token_ids_sha256": "3be19d461a2ff7db2cf09f2c8957539bcac9554c19bad7c5a7e8d7143cac2eb2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+      "token_count": 446,
+      "token_ids_sha256": "292dc846fd9f116c9de2aa83cc4821841c63a302ebc9c038a464d7560caff5c3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+      "token_count": 342,
+      "token_ids_sha256": "7805c931c5ddc7f49ddd3586616f223a2665cf355d78ae41041c14d7d9b55d36"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--36b2a1d7-e09e-49bf-b45e-477076c2ec01",
+      "token_count": 492,
+      "token_ids_sha256": "ab57a97b29ab968a90f16cfda8508a4a5a863c4e5424e27732db204d464f47cd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+      "token_count": 372,
+      "token_ids_sha256": "635c9c911d192e76ed8865a60961b5d5c3b7c2fcd3df519a870a674f8300e0f4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+      "token_count": 638,
+      "token_ids_sha256": "b2a6b5e15a7d1de33ed00551e93a306a4d3dee8e750bf4f691c8f7b5dfec8a6e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--37b11151-1776-4f8f-b328-30939fbf2ceb",
+      "token_count": 650,
+      "token_ids_sha256": "0f0b87bbf2ab35b9bc11dda2e7374448ba1d0420b93b262c0ae84b493a7528d0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--389735f1-f21c-4208-b8f0-f8031e7169b8",
+      "token_count": 546,
+      "token_ids_sha256": "343148cb455aee939769842454abd20c4ad79f147c0a44b13b6da44000771b84"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--38eb0c22-6caf-46ce-8869-5964bd735858",
+      "token_count": 554,
+      "token_ids_sha256": "65a23e15be82f0d5b3dbe5e5c302c680efa55c7a5ba172b95114f8fafca2ef36"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--39131305-9282-45e4-ac3b-591d2d4fc3ef",
+      "token_count": 204,
+      "token_ids_sha256": "806fdd3bde3414c33c416e3cce4a90e25a4e4dcf86a335bc990b6e659fe09c6c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+      "token_count": 508,
+      "token_ids_sha256": "e2e9da4965f3b02761be79520bafc4920a66f905e1f0a7eb1b2ddce860fc4961"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3986e7fd-a8e9-4ecb-bfc6-55920855912b",
+      "token_count": 410,
+      "token_ids_sha256": "9eb6f4875c90c0107cf88de9b305fe12da613fac734b597def6dede06d3accd9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--39cc9f64-cf74-4a48-a4d8-fe98c54a02e0",
+      "token_count": 464,
+      "token_ids_sha256": "c1d85d040ee73a57fd9c34b37952c6040a2f69be0a523a4580c25a15e26289ba"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3a40f208-a9c1-4efa-a598-4003c3681fb8",
+      "token_count": 312,
+      "token_ids_sha256": "101a4f70c35bd0c6e98c402f7364836e89b57ace6489ba85e972ba5f999c38c2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+      "token_count": 380,
+      "token_ids_sha256": "e7870b26e1082355d52c38906ade9d988f2c131f6cfcc502f16bbc332d168e08"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e",
+      "token_count": 260,
+      "token_ids_sha256": "f95bde399e2cfd1eb4e7c2723a18fac39a00e7b47391de36edd309260ff0b5c3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
+      "token_count": 306,
+      "token_ids_sha256": "e9e77282071d3363cf246f1bbaced37a20ae246cf77c994ac7c493b9c343f632"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+      "token_count": 610,
+      "token_ids_sha256": "ca782f166a9ff5eb3fc8f56553331eeb723f34115b8e75c89d4f59254291b5ae"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+      "token_count": 488,
+      "token_ids_sha256": "f278bf95664435b1e6789c652d56b7c9a61c42915bb552c4a016c90fae37b925"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+      "token_count": 586,
+      "token_ids_sha256": "307e74a9bf5690a079c515768b77f062d6934ccd0862985fd787c1cea24e97cd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529",
+      "token_count": 514,
+      "token_ids_sha256": "cf2e6a4ec4f668d905499fc54bf017331cdca4fd2bc816bf43ca66b755195e26"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+      "token_count": 262,
+      "token_ids_sha256": "a9ec9f377178e38fe0552d30a768210fec598981716ab5fd466592376ab95b59"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+      "token_count": 254,
+      "token_ids_sha256": "75ed589f10ca0a3a0c5c5e5fb8d8c1ab72873b22f3f11a71a2136599d14e4bab"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+      "token_count": 364,
+      "token_ids_sha256": "ff44e3fd11946a9dbce935256cd376d2f8bc41cc8ced8c08dc2a1ef456b19545"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
+      "token_count": 246,
+      "token_ids_sha256": "592fb6b23f6ba21f8258e73d7f26224ac5592fc7c352d22570b3bdf6428c2037"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "token_count": 244,
+      "token_ids_sha256": "b4dab69ec4486191e4d7116053f5a4897642d13fb0d6265313cd706b8679dde8"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3fc01293-ef5e-41c6-86ce-61f10706b64a",
+      "token_count": 1004,
+      "token_ids_sha256": "d658193c50b5db8b19543d6a3ed03f2be3f6fb678817207e81cf9ec2825d65cc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+      "token_count": 330,
+      "token_ids_sha256": "e5d53dc44382b74ef4bb531f24efe0690d66002a819049958cd4fe7e53e1f26f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807",
+      "token_count": 328,
+      "token_ids_sha256": "8866c32ec7cb8302837234e23732901c4ade4fdd5a652e4ddb043018032385da"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+      "token_count": 546,
+      "token_ids_sha256": "7024497036919f253933216cb84d7eb8db8006167278fda23220d820c1c8d507"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+      "token_count": 476,
+      "token_ids_sha256": "8ad18c3236bb35d724b102d21239804038aed45fcf16967b6baae6129191508a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6",
+      "token_count": 342,
+      "token_ids_sha256": "07b1b140fa3a5425349b185e27619b29eb191678322788020343963745474b01"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+      "token_count": 538,
+      "token_ids_sha256": "e1923d13e9bab91f4fa2ea525cf878904639e3ea5fac67f5f082805686545ab2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+      "token_count": 800,
+      "token_ids_sha256": "a53a101e9da9a3dcc19f6de990ff39454eb83708cc67c347d17bebf73b1182fc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--42fe883a-21ea-4cfb-b94a-78b6476dcc83",
+      "token_count": 470,
+      "token_ids_sha256": "8cedc13695627f5054ea6f91f6b90658b07a80f728621f1c72757ef62ec0297f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+      "token_count": 752,
+      "token_ids_sha256": "013ecaa59d22ae56fe5a4dccb0e3fd761b3de50663c388a234fd40f7cae7bf67"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+      "token_count": 440,
+      "token_ids_sha256": "89d86c131710d7f80d24c1e22cb8aca5de0ee10b1910232010c9ec3f79a1859b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--43ba2b05-cf72-4b6c-8243-03a4aba41ee0",
+      "token_count": 274,
+      "token_ids_sha256": "eecbebd883e5278c6f512028a623e6d4f837befc50d3f47bb2bcb965eb96ddba"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+      "token_count": 968,
+      "token_ids_sha256": "a63cf529ba545f1c63045debac2fae84ae3bdeaf4780555b7644bab93ca08afc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+      "token_count": 352,
+      "token_ids_sha256": "4ffb68d678135727651c7637f718784697debc69d178c1fda798eec165744366"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+      "token_count": 502,
+      "token_ids_sha256": "db14eed9c5b15973ecf0e1a4c8bf7afd1454f7f18bd2833a9610d4184244759d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+      "token_count": 288,
+      "token_ids_sha256": "fa7d8155164073713207713ed0db5010eb0ddd213fb424f0d2db3510a02c14bd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a",
+      "token_count": 678,
+      "token_ids_sha256": "149e131f35543df8a43f3d243d810165a79857d54a4e05c8e03c394492197e5e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06",
+      "token_count": 202,
+      "token_ids_sha256": "0d3a0abe8f5c59ea4e5663393dd87650b6ce28f600eb674c67df7a11f8bd2bf3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+      "token_count": 340,
+      "token_ids_sha256": "81c2cfbd5f09cc77394ce85a76bfec0712c48520953f8be69b6e64f20cacaf7b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+      "token_count": 398,
+      "token_ids_sha256": "175719501d5c7aafe35b64bc45adfe88bbad3be179c0c33881addd3e643620ae"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+      "token_count": 446,
+      "token_ids_sha256": "7215399ce04f2684b2d9c87ad42e64a5e27cffbe9b39fac9ca9927a72eaf8ba5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+      "token_count": 452,
+      "token_ids_sha256": "cbc9c8f02e9cdcbb806a34e42ded5653443d70dac3b82a140256e381cb0b6ab3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
+      "token_count": 402,
+      "token_ids_sha256": "dfacc47dbfdfca731395dd9e82bdf1b8a050a546192ae9f2d41dad6320d7ad18"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+      "token_count": 844,
+      "token_ids_sha256": "225ac2efa3d36b4b4b5f1c54da81f39ce18f7a4f234fc56f8d44571229e8c39e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+      "token_count": 368,
+      "token_ids_sha256": "40e54ac71367ce905890cf5af0f8d027925d598405e3592cec519cb6a644af5b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+      "token_count": 756,
+      "token_ids_sha256": "ab0f461e4d48b7d63828ecc74fff82df9d84c7de599acb457afbddce43713532"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
+      "token_count": 250,
+      "token_ids_sha256": "49d19eba5d7b2053c4e6169ba280bf8db3ba1ef91ef2f9a46719a46e7dc90e70"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+      "token_count": 536,
+      "token_ids_sha256": "994c6e53c1d589c10326c41f0a4c275f9f0f2d1c830e260219b66972e2fc7de4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4fd8a28b-4b3a-4cd6-a8cf-85ba5f824a7f",
+      "token_count": 258,
+      "token_ids_sha256": "ad5f856b88a4877092c670d4e8960196d6971eab5d06f39929cbc2c171717bbf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+      "token_count": 444,
+      "token_ids_sha256": "2ec09a8c674dbc70381f1d3a57e2a715cbdff8f7c9cc8a539d0cd28d4415f435"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+      "token_count": 1462,
+      "token_ids_sha256": "9023ff78a9dc2037d0c8e347b300d46d8777bfffa50b9ea02967896c929aad11"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+      "token_count": 360,
+      "token_ids_sha256": "90665f4e17618801389570a4bd5473162a27db0136c7e255a39ef36cb9f82022"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+      "token_count": 324,
+      "token_ids_sha256": "4e99f32d9da77633a8b131e6ff21bbe791f6b8249121b02777d5d7b1cf7f4ee7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+      "token_count": 392,
+      "token_ids_sha256": "69f16e9576dc611d56c94b581dbb85c007783dbdb28c6cac448d5bbf0e2a8566"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--51a14c76-dd3b-440b-9c20-2bf91d25a814",
+      "token_count": 480,
+      "token_ids_sha256": "1e9687cf431a2a3114d6fd1ad31f326546bb8e87f19d69aa146458243c3ff472"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--51ea26b1-ff1e-4faa-b1a0-1114cd298c87",
+      "token_count": 358,
+      "token_ids_sha256": "a83c6f0fb6928765077b553c46b49abce46aa288ad57401321311c6eceeee4f5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+      "token_count": 260,
+      "token_ids_sha256": "2e5f1e4f8daa6c9248af9cd512300ccfa67e388f8fc6939a6f500d55823689aa"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+      "token_count": 410,
+      "token_ids_sha256": "a6c7a9fd50c19f246453529e32face0f8658e65f77afcf7a6f9ab9740d1055dd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre-report:attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+      "token_count": 244,
+      "token_ids_sha256": "a9a3af2760a5f205da9a300dfbda091d14d2bacb797901386579d2caf1e58098"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298",
+      "token_count": 606,
+      "token_ids_sha256": "fdc5cad1738b622c853df8134c50074f20d6e1248e04b9673513201e7c9664c5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+      "token_count": 596,
+      "token_ids_sha256": "326de4a23c9e437ba3d02a6699cb108b449f0071972cd25d6c856f62416e78e0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520",
+      "token_count": 468,
+      "token_ids_sha256": "85750c0f95afcf1b44f455f2232de536433c241f3008ca45c0904f79ee640b51"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+      "token_count": 411,
+      "token_ids_sha256": "b6a7ed04283cdecc62c22015947de6fafdcd9eafe6a2e33efbd28f9f211ce023"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b",
+      "token_count": 436,
+      "token_ids_sha256": "b8fb3b197b189d0d46fec5cc0fadfff84afc1a6fc5f885ed3ab11d272a803425"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
+      "token_count": 620,
+      "token_ids_sha256": "54deaa56d206c30b0f3193185449d250e20d9ba25052a0b615b20e7a8df524e1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
+      "token_count": 204,
+      "token_ids_sha256": "9bef9c3497573faea7674aad1d2192486500476d7433aa168e9b954e227ea6a1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939",
+      "token_count": 594,
+      "token_ids_sha256": "759431ee4a4fa784b8631918f8d6902a8ad0fa90b83664231486fa8621355cc1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "token_count": 278,
+      "token_ids_sha256": "5c674ca6f80ae673fbdf37a6dad921cec472358b51b1edbfc9d184d83f29907c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d",
+      "token_count": 645,
+      "token_ids_sha256": "2c6b73f9e452ca163ca4e6d83041ef993c5aee84e5d866a68bd88a45f7f25fe0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+      "token_count": 467,
+      "token_ids_sha256": "58cd98902870d1e5a4336778f706f7c7704766d713dc333e01916929d8e2d9ae"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2",
+      "token_count": 346,
+      "token_ids_sha256": "548d44adc95c745d952fd6055ec5e3c80e0a54afeaabec695bfa7f88dbf712e2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+      "token_count": 748,
+      "token_ids_sha256": "be8d1a5547103e086264002affe9c29c5870142e43ff40134722378209941a65"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0470e792-32f8-46b0-a351-652bc35e9336",
+      "token_count": 258,
+      "token_ids_sha256": "276b7cc2c9a373806fe61e0cb6a2e03186e47d7d6c8983f48675734db9c67661"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--04a5a8ab-3bc8-4c83-95c9-55274a89786d",
+      "token_count": 324,
+      "token_ids_sha256": "7af6bedaee12b08ecb78b3a6e36df72cb59cc769f537d68f9db7cf1ab77f5817"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
+      "token_count": 209,
+      "token_ids_sha256": "ed93e5c708b9d35b12b821087241cc1b944dfb9a2185996a15339e40a9426457"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0533ab23-3f7d-463f-9bd8-634d27e4dee1",
+      "token_count": 470,
+      "token_ids_sha256": "d65ae662b1065a71a3c9cac31a59cfeaf4af2858ae9b5ea88a627c0001c616c0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771",
+      "token_count": 372,
+      "token_ids_sha256": "f5efbf0a143527f1df6a8e3475382181ebb8149e0c56a19930d6102bba0ee310"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1",
+      "token_count": 248,
+      "token_ids_sha256": "8445b15e54ac9eedf46125e5038250bcbc1b6f3072fc947dbe25f95057de5348"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+      "token_count": 573,
+      "token_ids_sha256": "31fc144fbd999f546e88e5468e2d94b86bfd8c217a5636c1c7e37b35f94240e3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0979abf9-4e26-43ec-9b6e-54efc4e70fca",
+      "token_count": 410,
+      "token_ids_sha256": "497ded9d340895ebcc80a55cc21fdc4844242d42a169a5deac65def83717ef4e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+      "token_count": 408,
+      "token_ids_sha256": "08773e3cb7636e93faa6cecb12ffd1df5d3f3eda4faf50801c6030e9776a3a92"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--09b008a9-b4eb-462a-a751-a0eb58050cd9",
+      "token_count": 384,
+      "token_ids_sha256": "eb290918f66db80ce0a009c48a2ed8a563933cc9b85d1a6cebdf95cb3769da5c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+      "token_count": 468,
+      "token_ids_sha256": "74823caf457ab8ab4993bfb1939ad8d052d99338ebee7a76633b30875de314f8"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119",
+      "token_count": 598,
+      "token_ids_sha256": "290c90b74c60d235153905647eb876ad7c9c1a618a96684cb5f1d3a2142f6537"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0a241b6c-7bb2-48f9-98f7-128145b4d27f",
+      "token_count": 405,
+      "token_ids_sha256": "278f13d9565c3b3c169797c4c0729475e7cd648b95fd334dd30f753e26cc4ac2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+      "token_count": 223,
+      "token_ids_sha256": "02491523606f556f2568372d3884600f5d2da19ceadd2c283e7454b8d48328ff"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+      "token_count": 405,
+      "token_ids_sha256": "0d0256cd5c60becfe5bb73a48268b5780f008cbb4999684aa9c2695f96d7cdc6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74",
+      "token_count": 238,
+      "token_ids_sha256": "95a2e035602b66555d6428f19adb8c75600c9a033b3d5fe7eb7475fafcf4b3e8"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
+      "token_count": 594,
+      "token_ids_sha256": "3c36efb12ab44653940db356aa162fef250af372fe45a1abdc1d3bba5dc1ed51"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3",
+      "token_count": 415,
+      "token_ids_sha256": "263e8487f7c3dec692e5706f4642ec982494ebf4e0b635d4517b3735525c7522"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32",
+      "token_count": 575,
+      "token_ids_sha256": "8ea30132d6cced6ccde732125af598c622adfcd13c7b63fb438e28c00e799e9f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a",
+      "token_count": 251,
+      "token_ids_sha256": "33025f75d1d23c9e27637f0ff1544092a91bbfcc7e4614f697604783821a2f01"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
+      "token_count": 278,
+      "token_ids_sha256": "7c8626f3338922b254085fc41dba44e62ac097a67744874c1ddb23380aee601c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e",
+      "token_count": 453,
+      "token_ids_sha256": "395faa036b6b583d9b75643d782477ac120105ac7003875355659b47397e3397"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0ce73446-8722-4086-9d43-514f1d0f669e",
+      "token_count": 462,
+      "token_ids_sha256": "8fcbb5177dc75f9e242a99de14e292362065324b5cabfb7324540ac1eae9d199"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff",
+      "token_count": 550,
+      "token_ids_sha256": "1fa5c776d929f4408277f5d3eb6172dbd387f6c2893741d6026076ce3fdacc7e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3",
+      "token_count": 354,
+      "token_ids_sha256": "e0069ada3576d68e91d8ab9f0a3e0e09be38be0cbaeabc26c7094e1891d17ccc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
+      "token_count": 597,
+      "token_ids_sha256": "1110a4e89a355777aaca6be28fea56024232125d2611b1424e67992a303b7a6a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3",
+      "token_count": 462,
+      "token_ids_sha256": "a8ad388a97df4a47f6e14f94873689373df184e9a4ea1ccdbfd10b349bc8fc2c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0df05477-c572-4ed6-88a9-47c581f548f7",
+      "token_count": 447,
+      "token_ids_sha256": "03013d6cb65217606b6ff96c4d6b6fb46705d1a584817de7004f74fbc99ded43"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+      "token_count": 271,
+      "token_ids_sha256": "dcc332d6189e154348299cefb3e4b4fdee9149152bb48f829ce95005f9a938c1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3",
+      "token_count": 479,
+      "token_ids_sha256": "2c5f2622f46c8c5b8fabaaff506d6bb990b07ae29c293280edb0116a7b51f63c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+      "token_count": 617,
+      "token_ids_sha256": "c9e7320ffcae62e3cb4d4255a5ee21b3137f1d3e1a7302c89a47cd2ca224df36"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea",
+      "token_count": 521,
+      "token_ids_sha256": "80a4b3eee871512cde0e6dfc06cb20a6dda237cfc448281e5c9aa5288cf2061e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1001e0d6-ee09-4dfc-aa90-e9320ffc8fe4",
+      "token_count": 366,
+      "token_ids_sha256": "f6520efe557b3160aa863956c0a2bb513bd08945e0c7d7d1bb6e8018b4b8b653"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
+      "token_count": 201,
+      "token_ids_sha256": "b7edc28149ebd830b15478aa56b44fabf5c334d94b272649f33273ee26e6802d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--106c0cf6-bf73-4601-9aa8-0945c2715ec5",
+      "token_count": 361,
+      "token_ids_sha256": "84ba17559c134a34157e84eb3979772497915e198fe57e698e7af6129827db22"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+      "token_count": 397,
+      "token_ids_sha256": "025ff221989ed7fdfc89624d14d6beb442643594037524b449892021431e68fa"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--10ff21b9-5a01-4268-a1b5-3b55015f1847",
+      "token_count": 326,
+      "token_ids_sha256": "b171dad0a576682df66cc356c6c140caa70139dd0c6cdb35b9a9e5c78ea792bb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
+      "token_count": 517,
+      "token_ids_sha256": "2f1e41046ac28baa23cd15b6f03d1cf46ffe8764d2c90ecf74ba9b8069d7bbf9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1126cab1-c700-412f-a510-61f4937bb096",
+      "token_count": 286,
+      "token_ids_sha256": "c932226c91cab0c9eea413cc1caf4f02da455b527f47ea72f9056ef8934c0f00"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
+      "token_count": 495,
+      "token_ids_sha256": "f0a899565ffc3123240bb155859b0f868cde9ae28449c6e88bfd9fa8ac300dd1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--11f29a39-0942-4d62-92b6-fe236cf3066e",
+      "token_count": 531,
+      "token_ids_sha256": "ddd8bb78644c588fb521a8ec668b889945737c41cc11625b6149adbf91afcff9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+      "token_count": 624,
+      "token_ids_sha256": "b02c6ceb2907b662563f7887873402256222dd73d50dec0e071a2a4fb2dd737b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--130d4494-b2d6-4040-bcea-6e59f05222fe",
+      "token_count": 326,
+      "token_ids_sha256": "4926abc117612f078d22ff4bd91b8e30012d600d74451f16dcb38c4851aa273e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc",
+      "token_count": 221,
+      "token_ids_sha256": "6b47ef36a0f3bee17cafe09994f82291bef84d2c1ede553d78ee4e41716ecd8d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0",
+      "token_count": 784,
+      "token_ids_sha256": "0d3d6f756c3f80c1f7defc49ebcaf9e8600f13971fac4dc026e2d7583a82f2fe"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
+      "token_count": 181,
+      "token_ids_sha256": "cbf25eefb930e4e085f8d8c61d87ca82029e0919f962c187822cc8bfa159ef67"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--144e007b-e638-431d-a894-45d90c54ab90",
+      "token_count": 207,
+      "token_ids_sha256": "e58c0f306c95abfaa411258a67ab424fc81c2c279912112945fc7ae65c774a72"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869",
+      "token_count": 478,
+      "token_ids_sha256": "79c2faf37ead29452685c9dd73115db04f3fd92b7e4effc3e5c018546f39cd78"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--155207c0-7f53-4f13-a06b-0a9907ef5096",
+      "token_count": 563,
+      "token_ids_sha256": "938a3add23ad676b39e151f217bd20445554441fdda8f012180366ead8b5e2a6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce",
+      "token_count": 199,
+      "token_ids_sha256": "7f00c3fc89a7669937355e7b6b72589d6039987d3ddb84aebbfb24374837631e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+      "token_count": 200,
+      "token_ids_sha256": "2578e17e3ead41998cccb40011f6e66a164f864ef6ee947cd58ae89df1970875"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
+      "token_count": 385,
+      "token_ids_sha256": "dd9ecba0f76ae920a9803decc40c2af0895bfa812eb4fa42c0610c4fea9ed977"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--166de1c6-2814-4fe5-8438-4e80f76b169f",
+      "token_count": 379,
+      "token_ids_sha256": "76dd4025c310ee66033fb05bb812e980e2eff03f1c8a73133af12c3afe325812"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--16ab6452-c3c1-497c-a47d-206018ca1ada",
+      "token_count": 266,
+      "token_ids_sha256": "67365aea2bd018cc5ed79904bb685618cd0484c52da91319ea8d4512c1541f12"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26",
+      "token_count": 475,
+      "token_ids_sha256": "42c48f51cdb0124e4f4cc937a19478efc737f7a2a8b679c3fa6067960c9a0fdc"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2",
+      "token_count": 459,
+      "token_ids_sha256": "786b6800d4d52a3ab8cc1079683c0d8f292e1304867ce1e83ac600a2dd3322f6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c",
+      "token_count": 725,
+      "token_ids_sha256": "3c93a230354e020e36dedcec4cb6f8ee6cd620274c5a58c3a2ec8050f23a6e97"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532",
+      "token_count": 406,
+      "token_ids_sha256": "919440b8e52bc1cebe901e40c20773d381ae795d404264d78cd40f0428d76745"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--18cffc21-3260-437e-80e4-4ab8bf2ba5e9",
+      "token_count": 188,
+      "token_ids_sha256": "47c38b5e25de3e5ce61a340e66cf651f3b27803e5935d8af206bd51e1747d606"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--191cc6af-1bb2-4344-ab5f-28e496638720",
+      "token_count": 227,
+      "token_ids_sha256": "15c69c661a7c7ebb3b615ee4fd2723ec6d7c5f5873e2660fcc20a9f5ab96fb19"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
+      "token_count": 511,
+      "token_ids_sha256": "63a809b012672891f35fbc611ce6689fe5b9ccc773026d0e424dfe59bc6e7797"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81",
+      "token_count": 292,
+      "token_ids_sha256": "318f972c4b78ae1b5924dd167c72eac317626e32c34e8b6aea4473990664b653"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+      "token_count": 361,
+      "token_ids_sha256": "5dd33b171284d6a671d298f4ca1a1fd1f5e903ef8ff83feac025446ad867d9d4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
+      "token_count": 261,
+      "token_ids_sha256": "133af7e53a4a4310e6f520cc62823c3ee07b988427586d77cb8a1789240e9f67"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72",
+      "token_count": 409,
+      "token_ids_sha256": "dd49b90723dca62811695ea1573b94b25470d6b41c8207f0599f7fbeb13f3fba"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b",
+      "token_count": 362,
+      "token_ids_sha256": "0abec50c9b0e351e840887b414465a3da90ec731733427e1adaffec4eb14f79d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
+      "token_count": 442,
+      "token_ids_sha256": "9b7e1edc120546b5e4e6a0024c770b90fa76baec09d0e20221933476861edc33"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec",
+      "token_count": 221,
+      "token_ids_sha256": "b19d1d878188c0ddcf6ec29c22615b3feb4fba82387369142bbb20902cb72185"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9",
+      "token_count": 418,
+      "token_ids_sha256": "1015f2b94f61d0774a1a99086309780bbbe8df322073e77061be6bd22e63dfc9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+      "token_count": 255,
+      "token_ids_sha256": "b355454aa05d640459151bb590bdcbac0ae797576a226dbcf1ba8879ed0165f6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+      "token_count": 269,
+      "token_ids_sha256": "8935ecc59156be29f89a167207337a34844696f6a672f1e58f566c63b90df057"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1cec9319-743b-4840-bb65-431547bce82a",
+      "token_count": 420,
+      "token_ids_sha256": "11061787c02fcb104f87c7c1f9c5fdf74da4e388622f4a7c3ef9bc776c1ecf2a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1cfcb312-b8d7-47a4-b560-4b16cc677292",
+      "token_count": 284,
+      "token_ids_sha256": "964f185390793822be2bff3755a581c07bca8deb30106c22d34e40cb35e7c414"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
+      "token_count": 342,
+      "token_ids_sha256": "cd1b0d4b339fe95dbc8b207791f528ea9bbeae22f2b441e44f447790e25a60e3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
+      "token_count": 310,
+      "token_ids_sha256": "b70e827c651cc1248021e4b5f93569d951e0ce172c54d1849d5d490473786d3f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
+      "token_count": 487,
+      "token_ids_sha256": "b0dab1b8c999fd77787f80baca4f22a16eb74a4907021dfde29198106f2c4540"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+      "token_count": 289,
+      "token_ids_sha256": "cc661802780c6336d03731ac528da214021184cb3e6d551996b968dec6c5dc0a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc",
+      "token_count": 287,
+      "token_ids_sha256": "094cb57506eada3dae43d38648930a9d148b6d8b7efc45ef2c9b7e07839f958e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1f9012ef-1e10-4e48-915e-e03563435fe8",
+      "token_count": 361,
+      "token_ids_sha256": "93ed8a57c4d01b6e15a15f262d59e91efd88f4bf710b233909ac5f979ab30082"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--1f9c2bae-b441-4f66-a8af-b65946ee72f2",
+      "token_count": 482,
+      "token_ids_sha256": "ed49aab5e3f4e58287cdc13b435c48e1043e102bb6eb24051dc48728d3e61fb5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--208884f1-7b83-4473-ac22-4e1cf6c41471",
+      "token_count": 515,
+      "token_ids_sha256": "b1b9a922f86d0e3946de2c33a266acc7eadfda966fb8017ffbc3e243912b5ee5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
+      "token_count": 368,
+      "token_ids_sha256": "934823463a10c5f3d8d14e767aabbab955591c0c00e62e6a9873c4dafafde951"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+      "token_count": 378,
+      "token_ids_sha256": "f21486bb93bd2aeeb8e0d3f87f692c513de4bea03d63ff4d702e9b36b770a882"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--215d9700-5881-48b8-8265-6449dbb7195d",
+      "token_count": 395,
+      "token_ids_sha256": "97494f11f85b0d8bb074910c377527a03871a62c7fae08da2a411731ed3256af"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+      "token_count": 297,
+      "token_ids_sha256": "fa1711a02cea698b9ae34039eb90b7e7b6d208d04af7e18fbd3d7a9827ed6327"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--22522668-ddf6-470b-a027-9d6866679f67",
+      "token_count": 418,
+      "token_ids_sha256": "1c80e6224029d55f88b5e30cc56918c4bfbaa1453078569391975bdc15b4f6da"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--22905430-4901-4c2a-84f6-98243cb173f8",
+      "token_count": 267,
+      "token_ids_sha256": "87eae16a31a4379546a6d8f60a4bc426db587d961e1d7043677425631853edb2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
+      "token_count": 625,
+      "token_ids_sha256": "0287c352e4ef225aa59518f71d35dac70cb1c2dda3dd71aa1692986b5fabea42"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+      "token_count": 441,
+      "token_ids_sha256": "9f1c4c6378f3369ede456ddf1f8d4fd22d2bbbfda30860c5dbcda6217b112494"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--241f9ea8-f6ae-4f38-92f5-cef5b7e539dd",
+      "token_count": 301,
+      "token_ids_sha256": "b1f3bccc11ad7cdd6e893df406c5b3dd25907fd06b5696201102900ef0b48ac6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26",
+      "token_count": 476,
+      "token_ids_sha256": "6f65088b38374dc5ad82cb2ccd1c25566fc64a803c59e64375a85246b783721e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
+      "token_count": 514,
+      "token_ids_sha256": "e7ec02d845135d3f53e40f29f0a5cf70abee21a62d70d2d2a4300aa9a53da389"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--24769ab5-14bd-4f4e-a752-cfb185da53ee",
+      "token_count": 524,
+      "token_ids_sha256": "e2c8d9e04ff6606a9366898317e0709882872af0817ffe7ce39e8fba7a761cf1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+      "token_count": 177,
+      "token_ids_sha256": "a4e8225eca96dd90089d5a387561b96c1d53900f59ed1b09d012f49fb703b207"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
+      "token_count": 324,
+      "token_ids_sha256": "0cfc0652e33da4dc91435cac31ac5fb2c2fc8beca68faa2068191b7120e769a2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d",
+      "token_count": 477,
+      "token_ids_sha256": "66c2c1d6d062d64382b4e2bbecb227e948dc5e5f9eb60955fa4a7a781c7569f9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--278716b1-61ce-4a74-8d17-891d0c494101",
+      "token_count": 617,
+      "token_ids_sha256": "f9d1c28ac32d220dd4c89edc9f7ab0d7419268c6bceab434043dab90c22e6695"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--28170e17-8384-415c-8486-2e6b294cb803",
+      "token_count": 441,
+      "token_ids_sha256": "80b30b20a0cd458ac84a3fe6a9c30c041906f3356d4ce0a4cc2a540ba7598eed"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--28abec6c-4443-4b03-8206-07f2e264a6b4",
+      "token_count": 349,
+      "token_ids_sha256": "d820fd3de270da6a642484b2cb6467f12f765e5d7aafb18ecd8a0f15577f8204"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+      "token_count": 798,
+      "token_ids_sha256": "f33cdd102c7c44b9904edfa3afdfbb60d97113d4c529d3ea0df5664d6bae093f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6",
+      "token_count": 355,
+      "token_ids_sha256": "e9c33b132ec87148c95f08fd7cb1941ff3d582cd9bcc2c6677e17776f1dc5995"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
+      "token_count": 673,
+      "token_ids_sha256": "15330843ed0ba8fae5ad6f7a517395b8c2ef23b301d4877a720d9227c52d9e5f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c",
+      "token_count": 331,
+      "token_ids_sha256": "6a109ed996b7a7008c53d369ca6b4f9ecfd316fa530312130bff0f8fca99b016"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+      "token_count": 232,
+      "token_ids_sha256": "b6696f9cb9a4c3c08268e8151d44d16355aa74dd03549cb4a9bb5d8eb6fdd1bf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2b5aa86b-a0df-4382-848d-30abea443327",
+      "token_count": 320,
+      "token_ids_sha256": "65904b6572f29a7952fdb1a50480dcc4f2513b62f71679ed130be4659dc8bfa2"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+      "token_count": 869,
+      "token_ids_sha256": "5a5a5190b0f4dcbac33419967d3dcd081a1e0afe16e45cf24ffc19e5998ddd1f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+      "token_count": 326,
+      "token_ids_sha256": "73f4414edf225d2f2ab6e09aacb705d535a546ad9cf5a18c0943fe63ce5edf31"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2bee5ffb-7a7a-4119-b1f2-158151b19ac0",
+      "token_count": 317,
+      "token_ids_sha256": "39a8a5e5ff66240e10afb7d3139781f8434ae1486d2273f4143c6f8413373f4e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53",
+      "token_count": 234,
+      "token_ids_sha256": "0b058727e0119f7b738c7e905e4fa62951d71d12f823f83fc8208aa202459ce1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2cd950a6-16c4-404a-aa01-044322395107",
+      "token_count": 283,
+      "token_ids_sha256": "b9b59f236930a94948db8ff9d4ecdae0357f19aa6c214d5906e6d81c8c2971ee"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
+      "token_count": 1095,
+      "token_ids_sha256": "a0f04fda4633a1a34cd24edabc57423d17334ed5f550e1c60e3b28b0e7686e42"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+      "token_count": 364,
+      "token_ids_sha256": "ef3cada52e01355b3cf6dfce5883b7fb388f5405210918ed47fd61e8337835b7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
+      "token_count": 510,
+      "token_ids_sha256": "6168c27560ba6e59f48654d383eeddc5a0285165f57de9f5f26add7e356b5bcf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad",
+      "token_count": 455,
+      "token_ids_sha256": "221260c027c2f71b507bfe0469d98b351abc3f5e29f18593c710efb5f4790ec8"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+      "token_count": 428,
+      "token_ids_sha256": "fbf485d3f19eaa6826cc791b96053f1348bb09c22c095589198736c881d2d945"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2f41939b-54c3-41d6-8f8b-35f1ec18ed97",
+      "token_count": 344,
+      "token_ids_sha256": "9aa31deba3731b10e9b6a5bd0760d3312570ee477037c9cb8841a2409ec6d735"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
+      "token_count": 429,
+      "token_ids_sha256": "cc16a2cf66379f23fa206119d60de83fa97de815fca757345206f450f4d33796"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
+      "token_count": 829,
+      "token_ids_sha256": "b852104520a115a6b7fa582ef2da973f14164939d35c16c870631a249cce922d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
+      "token_count": 359,
+      "token_ids_sha256": "b34e718a998aedf909463fed14ab2115b65a09cc4bf6f22d6c38a53b7bc47453"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
+      "token_count": 271,
+      "token_ids_sha256": "3caedb027df5b36bc80a7de6262ec22584b01fb2719374dad91da3961b99af05"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3120b9fa-23b8-4500-ae73-09494f607b7d",
+      "token_count": 455,
+      "token_ids_sha256": "c68245b0d9e309b20b554fbfa8d1c8608e2d32717619b1bb13258cb83befe576"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074",
+      "token_count": 429,
+      "token_ids_sha256": "a03f2927da73ab250f1aefce42215292d827c740d16eb9dfd9d8503afc346ff0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+      "token_count": 356,
+      "token_ids_sha256": "4df05c32e476158b529c64e4d544e65302509d88f9ed8df72f4e195fae4556d0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--31a0a2ac-c67c-4a7e-b9ed-6a96477d4e8e",
+      "token_count": 734,
+      "token_ids_sha256": "54ea44cd243208f11fea81e48a7e5e0c209b892dbfa18cdb9692e5efbf267edd"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--31e5011f-090e-45be-9bb6-17a1c5e8219b",
+      "token_count": 384,
+      "token_ids_sha256": "ffba9e26f0b67cacdad4cd0297f3dd710d8b555fd63e234ba2ccc370a7971439"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9",
+      "token_count": 715,
+      "token_ids_sha256": "f15c8fe6a0b2e5ec562c602881eacf624d6f0dc7b3fcfe69929eda4e42adb2a7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+      "token_count": 229,
+      "token_ids_sha256": "a9c0b162a8fbf568aabf67624106489173aeedfad5269fc9d383ea427b01d108"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
+      "token_count": 673,
+      "token_ids_sha256": "961430b04586cff3be304f952670ecf2a51db7d4b9d8fbfb4a92b8223a18aa1e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
+      "token_count": 315,
+      "token_ids_sha256": "ab883833583751dfd36159b8ecc2dd31570a82cc8e5213eb94297cb3d82bf87f"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
+      "token_count": 594,
+      "token_ids_sha256": "31efa36db4848dec3e441eac29ae0d581adb90b76ae1e1b1730bcb7b1c61c2df"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--32ad5c86-2bcf-47d8-8fdc-d7f3d79a7490",
+      "token_count": 337,
+      "token_ids_sha256": "06becdef19405b35cc0022c8327f5f24001ac4571dd661ffdef196b1473ade31"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
+      "token_count": 250,
+      "token_ids_sha256": "eea1f25c53bde426875b165611a44d1bdc09e4eee7404a75e01e55eeca3b8809"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
+      "token_count": 286,
+      "token_ids_sha256": "14365496fbf89989b04cd01f43a482d392b048179c7c8c8db3ab31d5062ddeff"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
+      "token_count": 186,
+      "token_ids_sha256": "d97acc372408ff04badf3690a0a95460e657182adf5f46fdec09f4809e43bcb9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--34a80bc4-80f2-46e6-94ff-f3265a4b657c",
+      "token_count": 389,
+      "token_ids_sha256": "dfbd9d517b514a4b5cf3b7327d9cdd45d58ab4bfcb6b38925ba0003366653f7d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
+      "token_count": 265,
+      "token_ids_sha256": "5169136a05520356b700f175205898f3acac7e88e28960bdb5ee78fa9ad784eb"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
+      "token_count": 541,
+      "token_ids_sha256": "10adc528a30982ea375e91baeeffb0ef69602df75bb24d3d680d04417d76aaf4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d",
+      "token_count": 271,
+      "token_ids_sha256": "a167d93b3dbae0880a88b25d164b2370be9243bc95ca4f941eb9a288a96d3002"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1",
+      "token_count": 361,
+      "token_ids_sha256": "fae481878c5b8e70d66c86e80eff9f1d395e45c8ddeb98a3daa03e4e09702a9c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+      "token_count": 561,
+      "token_ids_sha256": "80793b2cc648df6d8be34b82d5561aac8e75c1993ddff3301a96e0ce7e73bc12"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+      "token_count": 237,
+      "token_ids_sha256": "d84ea6630c35c8fffe9cee88c39d304bec6b08f15b9deec741f256a6c5e74d48"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--356662f7-e315-4759-86c9-6214e2a50ff8",
+      "token_count": 360,
+      "token_ids_sha256": "d76c0f4dfaae6e4abdb56a256363d07af57a2b44cbcbec287a238e29b92bb482"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0",
+      "token_count": 313,
+      "token_ids_sha256": "659097103979f378fb6c0c1815a2d47556299de5c1635b704ea7e30ee4ae6b1e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--35d30338-5bfa-41b0-a170-ec06dfd75f64",
+      "token_count": 441,
+      "token_ids_sha256": "2efcfd778a794107d73a9e7d2758bd4f05739a643538b361bfd53332336ea981"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+      "token_count": 328,
+      "token_ids_sha256": "2220c99b766fb95de4c203076b0529a0b3406bd364dac9ddf12edddd51da7aa4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
+      "token_count": 306,
+      "token_ids_sha256": "724c466dc2733c4591eb27c79a58c4d8bc4fe6a4a390de52f7ae65e6cd58f306"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--36b2a1d7-e09e-49bf-b45e-477076c2ec01",
+      "token_count": 494,
+      "token_ids_sha256": "9d6ffc37c0b1196d8f26afbb8fad6b68d892a8eff92a0c035789ce3ab6861802"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42",
+      "token_count": 322,
+      "token_ids_sha256": "f1dc79a66a089064aa0374fbb3a3825b98eb66301d0d4551f47b5c50519dc60c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8",
+      "token_count": 526,
+      "token_ids_sha256": "8e193653bfd5aef85bf764b96455930b9fa3daa5c46f40ceffbed92e7514b4de"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--37b11151-1776-4f8f-b328-30939fbf2ceb",
+      "token_count": 579,
+      "token_ids_sha256": "d350968990a3d4aabe21e29bf1e32c07e8421a9e75165bbed0c0f66bc7834f3d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--389735f1-f21c-4208-b8f0-f8031e7169b8",
+      "token_count": 362,
+      "token_ids_sha256": "28431a1ebe9f0f36413b99963502d1d8b0b664b792f29c5bae53ca29b55efdc6"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--38eb0c22-6caf-46ce-8869-5964bd735858",
+      "token_count": 418,
+      "token_ids_sha256": "6ac520084551bb3019353ad067bd0b791cd2a96e68a923bb786ea79d11b87f3d"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--39131305-9282-45e4-ac3b-591d2d4fc3ef",
+      "token_count": 199,
+      "token_ids_sha256": "0c3dce6a5b47afcc61c975401cc27c19e261a2b09f2c38565c6a397ef45c4466"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+      "token_count": 598,
+      "token_ids_sha256": "0b1fa80f8058c1d89d899fe017be9b814276c23da86ebe0a4b25cd154880fc7e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--394220d9-8efc-4252-9040-664f7b115be6",
+      "token_count": 557,
+      "token_ids_sha256": "09c81cd65c0905c661fc8fa8c053dc0c5c48bb56d4c1ce4c7595d9572ae21e59"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3975dbb5-0e1e-4f5b-bae1-cf2ab84b46dc",
+      "token_count": 527,
+      "token_ids_sha256": "61acdc9c4d7fc047cb16c90e18e6bb9ba35f496ec3d1bbe09ab60ecb7fd98068"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3986e7fd-a8e9-4ecb-bfc6-55920855912b",
+      "token_count": 748,
+      "token_ids_sha256": "3bb23c48d94a8597b725a3be7c18e51dbe496b80a8778224a5e322bf1432c228"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--39cc9f64-cf74-4a48-a4d8-fe98c54a02e0",
+      "token_count": 253,
+      "token_ids_sha256": "88461398870a4c865dc7fbe656a15119ef3c7402f2545b608251282d580bc276"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3a32740a-11b0-4bcf-b0a9-3abd0f6d3cd5",
+      "token_count": 325,
+      "token_ids_sha256": "72bbb5090ce9b31013944cd182a269a1581852611879d4518ad4cf0eba989502"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3a40f208-a9c1-4efa-a598-4003c3681fb8",
+      "token_count": 300,
+      "token_ids_sha256": "18a0d1b37ffc4e5daf4f75a42ae03c1a33a85c2e7af26feeefab6b05baa7f2e7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+      "token_count": 671,
+      "token_ids_sha256": "52075ead0c7504c072f53707698033ffa641c46d9509c02ff1dc6c50f22860d0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e",
+      "token_count": 463,
+      "token_ids_sha256": "8e26890c8940388c24216fecdea27e93ae11d05e7b7c1f920e1b79742a525df3"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4",
+      "token_count": 367,
+      "token_ids_sha256": "1e9f64278f91aef1103f423b55e868b2d3b4ea1e6f8929632da3a437b170977a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+      "token_count": 274,
+      "token_ids_sha256": "064822239c295f8a919db0ed9257a84cdbb3f4d533ecd5c41e472e3bbe7b548c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+      "token_count": 398,
+      "token_ids_sha256": "deda2a49b685a20e1c37bad79170077de08a3b14b6395b3f77bbb3e3dbb77813"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44",
+      "token_count": 252,
+      "token_ids_sha256": "eb1ecb78258eeb9940081b64cbe581b5e38bac18e09addb35c83451f1ae794f4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529",
+      "token_count": 285,
+      "token_ids_sha256": "3e1194fd661eb0bf357dab4f0fb59ae5ee0ca8a3af17801cd73361f0bee6ebcf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a",
+      "token_count": 586,
+      "token_ids_sha256": "dd0b49ef09343d396cdab724218a3303509a9ab9242487da4ce3b58014eba11a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
+      "token_count": 444,
+      "token_ids_sha256": "042cd10b979c6398dcb092ad9b9c3a31c1fa426d2e1926b293ab1af1fdabd915"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3e6831b2-bf4c-4ae6-b328-2e7c6633b291",
+      "token_count": 396,
+      "token_ids_sha256": "a69402a02ab6b2ab505ed7514eb371b575fefdd5a1fb50518661a3e054b4309c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
+      "token_count": 458,
+      "token_ids_sha256": "5308943a2f36ab9d2acba4337f3bf8a7844085debfb7b5a01c4f7df955d3efe9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7",
+      "token_count": 453,
+      "token_ids_sha256": "18b4e8eb4fd9a23215c636e5d848c36616c470dd5b0e7ab097a1f491e7abd457"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "token_count": 599,
+      "token_ids_sha256": "05daac46941751f60afa343ef4bd2ee5e7def557550fa97e5c99d78c18f25690"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3fc01293-ef5e-41c6-86ce-61f10706b64a",
+      "token_count": 316,
+      "token_ids_sha256": "35ccd673ea630750a1e315abe142839f41dcfe9d5696330f995e875a509a05ce"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
+      "token_count": 199,
+      "token_ids_sha256": "35f1a4a8ffbfdb1be0aa5728ac6a603b09367b0734c69f1b4e590934e89619ca"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807",
+      "token_count": 204,
+      "token_ids_sha256": "d221f990bd362368713c765fc54a7f77889b7b59a8c8b83f8ab4c79bdb356dfe"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+      "token_count": 431,
+      "token_ids_sha256": "deea731286b501640d8b3a48dd1624d543271b5cefa3e1fcb37eb45602ddde07"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
+      "token_count": 711,
+      "token_ids_sha256": "8806e954cbb6d74ba164dd9a443472e5f8067ac58c210610e03517d8518b9b8a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6",
+      "token_count": 261,
+      "token_ids_sha256": "119e11dd10993b4127479aa7bfdaab19fd623aeba1559bc4ead974e960e0f679"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6",
+      "token_count": 419,
+      "token_ids_sha256": "a3a980ab527c367ebe16b846decd5217d078ec0b4f5f46d9bd2d3d0e87b9fff1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+      "token_count": 231,
+      "token_ids_sha256": "ec6e5d40ad4dac8930595c75e396211a3b655f644cd3cc7ffe37b853f58f374a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--42fe883a-21ea-4cfb-b94a-78b6476dcc83",
+      "token_count": 625,
+      "token_ids_sha256": "787d6bea685292db29e11f14d8177c18e441bdb1035af5c0c98db02aaa6762a0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
+      "token_count": 244,
+      "token_ids_sha256": "6e9540f1994cf3f19dfc9921051b34fb5f68bae31a94e026fd763e3173383350"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe",
+      "token_count": 321,
+      "token_ids_sha256": "9fdf0e4810d009dd90cc82d81f498a664a53ffdb1705e09c9ac653175275c818"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--438c967d-3996-4870-bfc2-3954752a1927",
+      "token_count": 542,
+      "token_ids_sha256": "35f7444ef227acc46c39c3b3cbd55d8cc933cfcceee69f1bd06c7a349561e41b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--43ba2b05-cf72-4b6c-8243-03a4aba41ee0",
+      "token_count": 431,
+      "token_ids_sha256": "8313f3a8e09459f25cfd82fab4863ed62b97bd0d521fa09048b4e8be8e8b5d2b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--43c9bc06-715b-42db-972f-52d25c09a20c",
+      "token_count": 471,
+      "token_ids_sha256": "ea128e72514a78d451f4a3bf10e772a1ea4e9015472363c2bdf005ca337325ce"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+      "token_count": 275,
+      "token_ids_sha256": "8d39195778537b4cc23e895b5efce9a3fa040c94d4d9ee652ca1782b299777e1"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--43f2776f-b4bd-4118-94b8-fee47e69676d",
+      "token_count": 448,
+      "token_ids_sha256": "930e0a0693a846613a2b8a2b71e48f6abca94b0047678f22278070e7e4475438"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
+      "token_count": 727,
+      "token_ids_sha256": "a9fff9ad53f326652b7fe833969ad7f7b9a7dc6e1ba96addf3b1339fec83084c"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--45241b9e-9bbc-4826-a2cc-78855e51ca09",
+      "token_count": 365,
+      "token_ids_sha256": "044adf069c85eb6d818cb7e8f383edc4ed415a8ddc346ca8387cec7762fd995e"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--457c7820-d331-465a-915e-42f85500ccc4",
+      "token_count": 253,
+      "token_ids_sha256": "dea509d9c2621b47e4ed68722b58af595333caecfe488c46d78b9fe01e3ea329"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
+      "token_count": 579,
+      "token_ids_sha256": "4a5de6291187a0cfb63ea6fb08a730ed3608147b24ea0603757284483df36a23"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--48b836c6-e4ca-435a-82a3-29c03e5b492e",
+      "token_count": 570,
+      "token_ids_sha256": "95a04e5b30312bebdb436d04b6c56d9d363e88588f017c2046bda75a5a1842da"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a",
+      "token_count": 474,
+      "token_ids_sha256": "37bbf449f8b08141b661e988188fae562dc1831077072f3d4a4a781e138225cf"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06",
+      "token_count": 505,
+      "token_ids_sha256": "97f2c2bbd3501857aab6d050adb0f1ecf70355e8d43dad1743ac5652749c4379"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--49fca0d2-685d-41eb-8bd4-05451cc3a742",
+      "token_count": 356,
+      "token_ids_sha256": "025d221cb8ca24ff76ca22db0cff9b1256bc043283f5cac8050f43f73f544d03"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4a2975db-414e-4c0c-bd92-775987514b4b",
+      "token_count": 384,
+      "token_ids_sha256": "0e57b62e9cde62ba9e0fa24d5f32672eb1914686291de65dca2602240e3cea63"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665",
+      "token_count": 557,
+      "token_ids_sha256": "279f0733f6df1a625ef9b3165532863b5513c4567f0c7ed18dbf9ad2f3ed6856"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
+      "token_count": 374,
+      "token_ids_sha256": "61739ae6b5ceb0534f0c8f6667d8fca8877608df0fc8ed265f6a4d04857f0b96"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+      "token_count": 279,
+      "token_ids_sha256": "bb4f4005e139e978ef9eea8dbfe41ec6f10cc2e7d9a11633f9187f4ca04bd280"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4b46767d-4a61-4f30-995e-c19a75c2e536",
+      "token_count": 237,
+      "token_ids_sha256": "3ea868f975b96e4720b8888bd51eaeedbf710e68196cbcd7622a6d07027403e7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
+      "token_count": 279,
+      "token_ids_sha256": "0a6162b1f790b039c1d09a8c22be90ca413622f033e810de846961c240cd1221"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
+      "token_count": 543,
+      "token_ids_sha256": "909873bc161b8cd6943ebea3d40e169da778092a12b1f4b44c534c5ec26b95f4"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49",
+      "token_count": 489,
+      "token_ids_sha256": "e6acad62db861a29469340fe45bdddf6ff46895f54d232861c6d55fcd6e41b4b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+      "token_count": 390,
+      "token_ids_sha256": "afd271b0bd596a08f17e39604755d9ac84e7ad4fd29b4def8323208334d0e015"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a",
+      "token_count": 896,
+      "token_ids_sha256": "6480233170a79892cbcb2784c481c79c9b4113c4d9ce11ae55114e4f62abe9c7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466",
+      "token_count": 217,
+      "token_ids_sha256": "f4a8c36768a290768dd190777469e6662d76b1cd399a5c992152f449a5c88795"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
+      "token_count": 484,
+      "token_ids_sha256": "9ce281a00b15b385c3ff83040c19bda199b71f7c1ade0b28da8b85481276aea9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4fd8a28b-4b3a-4cd6-a8cf-85ba5f824a7f",
+      "token_count": 362,
+      "token_ids_sha256": "2b49feef748295605e7534cefc48886186c3ed00b2fb3b125e624ac6f873ec0b"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
+      "token_count": 453,
+      "token_ids_sha256": "ea8af769688a51798cdb8438b11b54430054563301f27111440c6e828cdd2609"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
+      "token_count": 565,
+      "token_ids_sha256": "dcb2d5d912c8f538c318a437e3d584153bc96f243403f4d357b581040b67aae9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de",
+      "token_count": 435,
+      "token_ids_sha256": "bb4baf57ca92cb16e1062a1ce0cae315de86f62cd3d0c564e18ec35bcebffdb9"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d",
+      "token_count": 430,
+      "token_ids_sha256": "711a74368efe898f7ceb8b2904cb3b4d0e2241611edbbfa5c98c162813942586"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462",
+      "token_count": 310,
+      "token_ids_sha256": "0acb4596550502cb92d3939a8f13d37e24002c248e1f0cc5dbe5359a2925ded7"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--514dc7b3-0b80-4382-80a9-2e2d294f5019",
+      "token_count": 415,
+      "token_ids_sha256": "1a56d6d05fac37d5c628e20dc9d4b3d7029df9f1fba70755dcb0924e8d9c7575"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--51a14c76-dd3b-440b-9c20-2bf91d25a814",
+      "token_count": 367,
+      "token_ids_sha256": "935d030e27b81e424f72df612aa309e06ad303d5cab5dbe808a87aa69a32264a"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--51ea26b1-ff1e-4faa-b1a0-1114cd298c87",
+      "token_count": 223,
+      "token_ids_sha256": "4a58ed62a5765846cfaaa0058b9449f2805491d68292105a1ec5fa12acbccbe5"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd",
+      "token_count": 303,
+      "token_ids_sha256": "efea058822d7da2db85ff0ae2c09a346ac7eadb6f85f5f2e48118ede416b9b65"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4",
+      "token_count": 557,
+      "token_ids_sha256": "46bd019d473cf0b294de5b658410448b30a4263efb22d1d323322d6ecde312d0"
+    },
+    {
+      "over_limit": false,
+      "sample_id": "mitre:attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+      "token_count": 416,
+      "token_ids_sha256": "17e012dcd070b83641fbb3368e0d7eeb037f5db1be9077e2d118a85b8750e501"
+    }
+  ],
+  "records_checked": 432,
+  "reference_source": {
+    "files": {
+      "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "config.json": "2850ddb3bf7aecad20b611e2d44f3077fc8193f4827c93beddd4c02ad63c2297",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "purpose": "tokenizer-only reference validation; Mac installation match pending",
+    "repository": "Qwen/Qwen3-30B-A3B",
+    "revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39"
+  }
+}

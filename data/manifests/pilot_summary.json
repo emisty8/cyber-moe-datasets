@@ -1,0 +1,112 @@
+{
+  "byte_identical_pilot_artifacts": 27,
+  "date": "2026-10-14",
+  "environment": {
+    "local_qwen_tokenizer_available": false,
+    "mlx_available": false,
+    "mlx_fun_installed": false,
+    "planning_pdf_available": false,
+    "platform": "Windows",
+    "python": "3.12.10",
+    "uv": "0.12.23"
+  },
+  "lint": "passed",
+  "mlx_contract": {
+    "format": "passed",
+    "installed_version": "unavailable",
+    "model_tokenization": "unverified",
+    "records_checked": 35,
+    "revision": "c5d0cbb0a962bb72c781aff2fe5e158507bf5745"
+  },
+  "pilot": {
+    "calibration_samples": 35,
+    "calibration_targets": {
+      "general": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 64,
+        "target": 64
+      },
+      "security_reasoning": {
+        "available": 35,
+        "selected": 35,
+        "shortfall": 93,
+        "target": 128
+      },
+      "soc": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 192,
+        "target": 192
+      },
+      "structured": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 32,
+        "target": 32
+      },
+      "tool_workflow": {
+        "available": 0,
+        "selected": 0,
+        "shortfall": 96,
+        "target": 96
+      }
+    },
+    "categories": {
+      "security_reasoning": 78
+    },
+    "known_tokens": 0,
+    "leakage": {
+      "benchmark_reference_check": "unavailable",
+      "passed": true,
+      "violations": []
+    },
+    "length_filter_verified": false,
+    "length_rejected": 0,
+    "mode": "preview",
+    "privacy_review": [],
+    "quarantine_review": [
+      {
+        "flags": [
+          "ipv4"
+        ],
+        "sample_id": "mitre:attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58"
+      },
+      {
+        "flags": [
+          "ipv4"
+        ],
+        "sample_id": "mitre:attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3"
+      }
+    ],
+    "quarantined": 2,
+    "samples": 78,
+    "splits": {
+      "calibration": 35,
+      "evaluation": 6,
+      "train": 32,
+      "validation": 5
+    },
+    "token_distribution": {
+      "security_reasoning": 0
+    },
+    "tokenizer_verified": false,
+    "unknown_token_counts": 78,
+    "verification": {
+      "source_grounded": 78
+    }
+  },
+  "source_inputs": [
+    {
+      "path": "data\\raw\\enterprise-attack-17.1.json",
+      "sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+      "source_id": "mitre_attack"
+    }
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 45,
+    "skip_reason": "local Qwen tokenizer integration unavailable",
+    "skipped": 1
+  }
+}
